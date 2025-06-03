@@ -1,4 +1,4 @@
-import { ChatInputBox } from '@/components/ChatInputBox'
+import { ChatInputBox } from '@/components/chat-input-box'
 
 export default function Home() {
   return (
