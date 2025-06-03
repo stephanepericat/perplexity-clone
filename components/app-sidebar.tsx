@@ -11,7 +11,6 @@ import {
   GalleryHorizontalEnd,
   LogIn,
   Search,
-  Smartphone,
 } from 'lucide-react'
 import SidebarLogo from '@/public/logo-sidebar.png'
 
@@ -29,7 +28,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from '@/components/ui/sidebar'
-import { Separator } from '@/components/ui/separator'
 
 const MenuOptions = [
   { title: 'Home', icon: Search, path: '/', showSignedIn: true },
@@ -99,7 +97,7 @@ export function AppSidebar() {
       </SidebarContent>
       <SidebarFooter className="">
         <div className="flex flex-col">
-          <div>
+          <div className="mb-3">
             <h2 className="font-bold text-sm">Try Pro</h2>
             <p className="text-sm text-foreground/60">
               Upgrade for image upload, smarter AI, and more Copilot.
@@ -113,17 +111,10 @@ export function AppSidebar() {
             </Button>
           </div>
           {user && (
-            <div className="mt-4">
+            <div className="my-3">
               <UserButton />
             </div>
           )}
-        </div>
-        <Separator className="mt-3 bg-accent brightness-90" />
-        <div className="my-3">
-          <a href="#" className="flex items-center gap-1.5">
-            <Smartphone className="h-4 w-4" />
-            <span className="text-sm">Download</span>
-          </a>
         </div>
       </SidebarFooter>
     </Sidebar>
