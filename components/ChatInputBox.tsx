@@ -12,9 +12,20 @@ import {
   SearchCheck,
 } from 'lucide-react'
 
-import { Input } from './ui/input'
+import { Input } from '@/components/ui/input'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Button } from './ui/button'
+import { Button } from '@/components/ui/button'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+
+import { AIModelOptions } from '@/lib/shared'
+
 export const ChatInputBox = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center">
@@ -49,9 +60,27 @@ export const ChatInputBox = () => {
           </TabsList>
         </Tabs>
         <div className="flex items-center absolute right-2 bottom-2 h-[36px]">
-          <Button variant="ghost">
-            <Cpu className="text-muted-foreground h-5 w-5" />
-          </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger>
+              <Button variant="ghost">
+                <Cpu className="text-muted-foreground h-5 w-5" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              {/* <DropdownMenuLabel>My Account</DropdownMenuLabel>
+              <DropdownMenuSeparator /> */}
+              {AIModelOptions.map((model) => (
+                <DropdownMenuItem key={model.id}>
+                  <div className="mb-1">
+                    <h2 className="text-sm font-medium">{model.name}</h2>
+                    <p className="w-[250px] truncate text-muted-foreground">
+                      {model.description}
+                    </p>
+                  </div>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
           <Button variant="ghost">
             <Globe className="text-muted-foreground h-5 w-5" />
           </Button>
