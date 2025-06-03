@@ -2,21 +2,30 @@ import Image from 'next/image'
 import Logo from '@/public/home-logo.png'
 import { cn } from '@/lib/utils'
 
-import { Atom, SearchCheck } from 'lucide-react'
+import {
+  Atom,
+  AudioLines,
+  Cpu,
+  Globe,
+  Mic,
+  Paperclip,
+  SearchCheck,
+} from 'lucide-react'
 
 import { Input } from './ui/input'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { Button } from './ui/button'
 export const ChatInputBox = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center">
       <Image src={Logo} alt="Perplexity" className="max-w-72 mb-3" />
-      <div className="w-full p-2 max-w-2xl border-2 rounded-2xl">
-        <Tabs defaultValue="search" className="w-[400px]">
+      <div className="w-full p-2 max-w-2xl border-2 rounded-2xl relative">
+        <Tabs defaultValue="search" className="w-full">
           <TabsContent value="search">
             <Input
               className={cn(
                 'focus-visible:border-none focus-visible:ring-none focus-visible:ring-0 border-none shadow-none',
-                'w-full',
+                'w-full my-2',
               )}
               placeholder="Ask anything..."
             />
@@ -25,7 +34,7 @@ export const ChatInputBox = () => {
             <Input
               className={cn(
                 'focus-visible:border-none focus-visible:ring-none focus-visible:ring-0 border-none shadow-none',
-                'w-full',
+                'w-full my-2',
               )}
               placeholder="Research anything..."
             />
@@ -39,6 +48,23 @@ export const ChatInputBox = () => {
             </TabsTrigger>
           </TabsList>
         </Tabs>
+        <div className="flex items-center absolute right-2 bottom-2 h-[36px]">
+          <Button variant="ghost">
+            <Cpu className="text-muted-foreground h-5 w-5" />
+          </Button>
+          <Button variant="ghost">
+            <Globe className="text-muted-foreground h-5 w-5" />
+          </Button>
+          <Button variant="ghost">
+            <Paperclip className="text-muted-foreground h-5 w-5" />
+          </Button>
+          <Button variant="ghost">
+            <Mic className="text-muted-foreground h-5 w-5" />
+          </Button>
+          <Button>
+            <AudioLines className="text-white h-5 w-5" />
+          </Button>
+        </div>
       </div>
     </div>
   )
