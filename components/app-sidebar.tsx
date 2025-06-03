@@ -16,7 +16,8 @@ import SidebarLogo from '@/public/logo-sidebar.png'
 
 import { cn } from '@/lib/utils'
 
-import { Button } from './ui/button'
+import { SignUpButton } from '@clerk/nextjs'
+import { Button } from '@/components/ui/button'
 import {
   Sidebar,
   SidebarContent,
@@ -27,13 +28,13 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from '@/components/ui/sidebar'
-import { Separator } from './ui/separator'
+import { Separator } from '@/components/ui/separator'
 
 const MenuOptions = [
   { title: 'Home', icon: Search, path: '/' },
   { title: 'Discover', icon: Compass, path: '/discover' },
   { title: 'Library', icon: GalleryHorizontalEnd, path: '/library' },
-  { title: 'Sign In', icon: LogIn, path: '#' },
+  { title: 'Sign In', icon: LogIn, path: '/sign-in' },
 ]
 
 export function AppSidebar() {
@@ -65,9 +66,11 @@ export function AppSidebar() {
           </SidebarMenu>
         </SidebarGroup>
         <SidebarGroup>
-          <Button className="rounded-full text-lg py-[1.35rem] hover:cursor-pointer">
-            Sign Up
-          </Button>
+          <SignUpButton mode="modal">
+            <Button className="rounded-full text-lg py-[1.35rem] hover:cursor-pointer">
+              Sign Up
+            </Button>
+          </SignUpButton>
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter className="">
