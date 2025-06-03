@@ -1,10 +1,9 @@
-import { Button } from '@/components/ui/button'
+import { ChatInputBox } from '@/components/ChatInputBox'
 
 export default function Home() {
   return (
-    <div>
-      <h2>page title</h2>
-      <Button>Click me</Button>
+    <div className="w-full">
+      <ChatInputBox />
     </div>
   )
 }

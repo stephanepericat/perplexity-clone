@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <SidebarProvider>
           <AppSidebar />
-          <main>
+          <main className="w-full h-screen overflow-hidden">
             <SidebarTrigger />
             {children}
           </main>
