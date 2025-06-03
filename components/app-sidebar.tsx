@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { UserButton, useUser } from '@clerk/nextjs'
 
 import {
   ArrowUpRight,
@@ -16,7 +17,7 @@ import SidebarLogo from '@/public/logo-sidebar.png'
 
 import { cn } from '@/lib/utils'
 
-import { SignUpButton } from '@clerk/nextjs'
+import { SignOutButton, SignUpButton } from '@clerk/nextjs'
 import { Button } from '@/components/ui/button'
 import {
   Sidebar,
@@ -39,6 +40,9 @@ const MenuOptions = [
 
 export function AppSidebar() {
   const pathname = usePathname()
+  const { user } = useUser()
+
+  console.log(user)
 
   return (
     <Sidebar>
@@ -66,26 +70,41 @@ export function AppSidebar() {
           </SidebarMenu>
         </SidebarGroup>
         <SidebarGroup>
-          <SignUpButton mode="modal">
-            <Button className="rounded-full text-lg py-[1.35rem] hover:cursor-pointer">
-              Sign Up
-            </Button>
-          </SignUpButton>
+          {user ? (
+            <SignOutButton>
+              <Button className="rounded-full text-lg py-[1.35rem] hover:cursor-pointer">
+                Logout
+              </Button>
+            </SignOutButton>
+          ) : (
+            <SignUpButton mode="modal">
+              <Button className="rounded-full text-lg py-[1.35rem] hover:cursor-pointer">
+                Sign Up
+              </Button>
+            </SignUpButton>
+          )}
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter className="">
-        <div>
-          <h2 className="font-bold text-sm">Try Pro</h2>
-          <p className="text-sm text-foreground/60">
-            Upgrade for image upload, smarter AI, and more Copilot.
-          </p>
-          <Button
-            variant="outline"
-            className="bg-accent brightness-90 mt-2 hover:cursor-pointer"
-          >
-            <span>Learn More</span>
-            <ArrowUpRight className="h-4 w-4" />
-          </Button>
+        <div className="flex flex-col">
+          <div>
+            <h2 className="font-bold text-sm">Try Pro</h2>
+            <p className="text-sm text-foreground/60">
+              Upgrade for image upload, smarter AI, and more Copilot.
+            </p>
+            <Button
+              variant="outline"
+              className="bg-accent brightness-90 mt-2 hover:cursor-pointer"
+            >
+              <span>Learn More</span>
+              <ArrowUpRight className="h-4 w-4" />
+            </Button>
+          </div>
+          {user && (
+            <div className="mt-4">
+              <UserButton />
+            </div>
+          )}
         </div>
         <Separator className="mt-3 bg-accent brightness-90" />
         <div className="my-3">
