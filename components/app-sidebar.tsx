@@ -32,17 +32,20 @@ import {
 import { Separator } from '@/components/ui/separator'
 
 const MenuOptions = [
-  { title: 'Home', icon: Search, path: '/' },
-  { title: 'Discover', icon: Compass, path: '/discover' },
-  { title: 'Library', icon: GalleryHorizontalEnd, path: '/library' },
-  { title: 'Sign In', icon: LogIn, path: '/sign-in' },
+  { title: 'Home', icon: Search, path: '/', showSignedIn: true },
+  { title: 'Discover', icon: Compass, path: '/discover', showSignedIn: true },
+  {
+    title: 'Library',
+    icon: GalleryHorizontalEnd,
+    path: '/library',
+    showSignedIn: true,
+  },
+  { title: 'Sign In', icon: LogIn, path: '/sign-in', showSignedIn: false },
 ]
 
 export function AppSidebar() {
   const pathname = usePathname()
   const { user } = useUser()
-
-  console.log(user)
 
   return (
     <Sidebar>
@@ -52,21 +55,30 @@ export function AppSidebar() {
       <SidebarContent>
         <SidebarGroup className="pt-5">
           <SidebarMenu>
-            {MenuOptions.map(({ title, icon: Icon, path }, index) => (
-              <SidebarMenuItem key={index} className="p-1">
-                <SidebarMenuButton
-                  className={cn(
-                    'hover:bg-transparent active:bg-transparent hover:font-semibold',
-                    pathname === path && 'font-semibold',
-                  )}
-                >
-                  <Link href={path} className="flex items-center gap-2 w-full">
-                    <Icon className="h-5" />
-                    <span className="text-lg">{title}</span>
-                  </Link>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
-            ))}
+            {MenuOptions.map(
+              ({ title, icon: Icon, path, showSignedIn }, index) => {
+                if (!showSignedIn && user) return null
+
+                return (
+                  <SidebarMenuItem key={index} className="p-1">
+                    <SidebarMenuButton
+                      className={cn(
+                        'hover:bg-transparent active:bg-transparent hover:font-semibold',
+                        pathname === path && 'font-semibold',
+                      )}
+                    >
+                      <Link
+                        href={path}
+                        className="flex items-center gap-2 w-full"
+                      >
+                        <Icon className="h-5" />
+                        <span className="text-lg">{title}</span>
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                )
+              },
+            )}
           </SidebarMenu>
         </SidebarGroup>
         <SidebarGroup>
