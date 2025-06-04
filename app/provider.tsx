@@ -35,7 +35,9 @@ export function Provider({ children }: { children: React.ReactNode }) {
   }
 
   useEffect(() => {
-    user && createNewUser()
+    if (user) {
+      createNewUser()
+    }
   }, [user])
 
   return (
