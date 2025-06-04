@@ -1,8 +1,13 @@
+'use client'
+
+import { useContext, useState } from 'react'
 import Image from 'next/image'
 import Logo from '@/public/word-mark.png'
 import { cn } from '@/lib/utils'
+import { supabase } from '@/lib/supabase'
 
 import {
+  ArrowRight,
   Atom,
   AudioLines,
   Cpu,
@@ -24,14 +29,60 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 
+import { UserDetailContext } from '@/context/UserDetailContext'
 import { AIModelOptions } from '@/lib/shared'
 
 export const ChatInputBox = () => {
+  const [userSearchInput, setUserSearchInput] = useState('')
+  const [searchType, setSearchType] = useState('search')
+  const [loading, setLoading] = useState(false)
+  const { userDetail } = useContext(UserDetailContext)
+
+  const onSearchQuery = async () => {
+    console.log('Searching for:', userSearchInput, searchType)
+
+    try {
+      setLoading(true)
+      const { data, error } = await supabase
+        .from('Library')
+        .insert([
+          {
+            search_id: crypto.randomUUID(),
+            search_input: userSearchInput,
+            type: searchType,
+            user_email: userDetail?.email,
+          },
+        ])
+        .select()
+
+      if (error) {
+        throw error
+      }
+
+      console.log('Data inserted successfully:', data[0])
+    } catch (error) {
+      console.error('Error inserting data:', error)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center">
       <Image src={Logo} alt="Perplexity" className="max-w-72 mb-6" />
+      {/* <p>
+        {searchType} | {userSearchInput}
+      </p> */}
+      {/* <p>{JSON.stringify(userDetail)}</p> */}
       <div className="w-full p-2 max-w-2xl border-2 rounded-2xl relative">
-        <Tabs defaultValue="search" className="w-full">
+        <Tabs
+          defaultValue="search"
+          className="w-full"
+          onValueChange={(value) => {
+            setUserSearchInput('')
+            setSearchType(value)
+          }}
+        >
           <TabsContent value="search">
             <Input
               className={cn(
@@ -39,6 +90,7 @@ export const ChatInputBox = () => {
                 'w-full my-2',
               )}
               placeholder="Ask anything..."
+              onChange={(e) => setUserSearchInput(e.target.value)}
             />
           </TabsContent>
           <TabsContent value="research">
@@ -48,6 +100,7 @@ export const ChatInputBox = () => {
                 'w-full my-2',
               )}
               placeholder="Research anything..."
+              onChange={(e) => setUserSearchInput(e.target.value)}
             />
           </TabsContent>
           <TabsList>
@@ -90,8 +143,16 @@ export const ChatInputBox = () => {
           <Button variant="ghost">
             <Mic className="text-muted-foreground h-5 w-5" />
           </Button>
-          <Button>
-            <AudioLines className="text-white h-5 w-5" />
+          <Button
+            className="hover:cursor-pointer"
+            disabled={loading}
+            onClick={() => (userSearchInput ? onSearchQuery() : null)}
+          >
+            {!userSearchInput ? (
+              <AudioLines className="text-white h-5 w-5" />
+            ) : (
+              <ArrowRight className="text-white h-5 w-5" />
+            )}
           </Button>
         </div>
       </div>
