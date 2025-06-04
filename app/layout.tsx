@@ -6,7 +6,7 @@ import { Provider } from './provider'
 
 import { SidebarProvider } from '@/components/ui/sidebar'
 import { SidebarTrigger } from '@/components/ui/sidebar'
-import { AppSidebar } from '@/components/app-sidebar'
+import { AppSidebar } from '@/app/_components/app-sidebar'
 
 import './globals.css'
 

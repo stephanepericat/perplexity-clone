@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 
 import { Header } from './_components/header'
-import { DisplayResult } from './_components/DisplayResult'
+import { DisplayResult } from './_components/display-result'
 
 export default function SearchResultPage() {
   const { searchId } = useParams()
