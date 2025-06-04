@@ -1,0 +1,919 @@
+{
+  "query": {
+    "original": "What is the meaning of life ?",
+    "show_strict_warning": false,
+    "is_navigational": false,
+    "is_news_breaking": false,
+    "spellcheck_off": true,
+    "country": "us",
+    "bad_results": false,
+    "should_fallback": false,
+    "postal_code": "",
+    "city": "",
+    "header_country": "",
+    "more_results_available": true,
+    "state": ""
+  },
+  "mixed": {
+    "type": "mixed",
+    "main": [
+      {
+        "type": "web",
+        "index": 0,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 1,
+        "all": false
+      },
+      {
+        "type": "videos",
+        "all": true
+      },
+      {
+        "type": "web",
+        "index": 2,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 3,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 4,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 5,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 6,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 7,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 8,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 9,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 10,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 11,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 12,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 13,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 14,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 15,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 16,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 17,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 18,
+        "all": false
+      },
+      {
+        "type": "web",
+        "index": 19,
+        "all": false
+      }
+    ],
+    "top": [],
+    "side": []
+  },
+  "type": "search",
+  "videos": {
+    "type": "videos",
+    "results": [
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=HhhRhXTrGvg",
+        "title": "Neil deGrasse Tyson Explains the Meaning of Life to the Wack ...",
+        "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "video": {},
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/ojwrYjPFH4Z_0nV9f-7AnihN5lxNs5vtx6iPqhpBC08/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9I/aGhSaFhUckd2Zy9o/cWRlZmF1bHQuanBn",
+          "original": "https://i.ytimg.com/vi/HhhRhXTrGvg/hqdefault.jpg"
+        }
+      },
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=oOsER04ts3Y",
+        "title": "the meaning of life - YouTube",
+        "description": "hey it's me gabe (@gabesweats) from tiktok! in this video, i go over the meaning of life according to different religions/philosophies.make sure to subscribe...",
+        "age": "November 17, 2022",
+        "page_age": "2022-11-17T21:30:06",
+        "video": {
+          "duration": "00:55",
+          "views": 263310,
+          "creator": "GabeSweats",
+          "publisher": "YouTube"
+        },
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/YCTnO5MbHECjgEiZ_qDcLAVhYonWESCQbDKeETeLq1s/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9v/T3NFUjA0dHMzWS9v/YXIyLmpwZz9zcXA9/LW9heW13RWRDSlVE/RU5BRlNGV1FBZ0h5/cTRxcEF3d0lBUlVB/QUloQ2NBSEFBUVk9/JmFtcDtycz1BT240/Q0xBSlJJZVlXX21I/UEIwZ3VWZW5HZVh6/YXpUQ3B3",
+          "original": "https://i.ytimg.com/vi/oOsER04ts3Y/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&amp;rs=AOn4CLAJRIeYW_mHPB0guVenGeXzazTCpw"
+        }
+      },
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=mxKj2-BJYps",
+        "title": "What Is The Meaning Of Life?",
+        "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "video": {},
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/gye-a39q4PINg5HKe4q_zFYDJCqqSugoHwMUrGRqizQ/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9t/eEtqMi1CSllwcy9o/cWRlZmF1bHQuanBn",
+          "original": "https://i.ytimg.com/vi/mxKj2-BJYps/hqdefault.jpg"
+        }
+      },
+      {
+        "type": "video_result",
+        "url": "https://www.youtube.com/watch?v=kuR5OhK5B_U&vl=en-US",
+        "title": "Anthony Hopkins - What's The Meaning Of Life - YouTube",
+        "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "video": {},
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/qPMP130lHBJxi-9T_Dc-SwZaIefYpz9uFRIEVCvAGok/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9r/dVI1T2hLNUJfVS9o/cWRlZmF1bHQuanBn",
+          "original": "https://i.ytimg.com/vi/kuR5OhK5B_U/hqdefault.jpg"
+        }
+      }
+    ],
+    "mutated_by_goggles": false
+  },
+  "web": {
+    "type": "search",
+    "results": [
+      {
+        "title": "Meaning of life - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Meaning_of_life",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "The meaning of life is <strong>the concept of an individual&#x27;s life, or existence in general, having an inherent significance or a philosophical point</strong>. There is no consensus on the specifics of such a concept or whether the concept itself even exists in any objective sense.",
+        "page_age": "2025-05-27T17:15:28",
+        "profile": {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Meaning_of_life",
+          "long_name": "en.wikipedia.org",
+          "img": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "en.wikipedia.org",
+          "hostname": "en.wikipedia.org",
+          "favicon": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+          "path": "› wiki  › Meaning_of_life"
+        },
+        "age": "1 week ago",
+        "extra_snippets": [
+          "Thinking and discourse on the topic is sought in the English language through questions such as—but not limited to—\"What is the meaning of life?\", \"What is the purpose of existence?\", and \"Why are we here?\". There have been many proposed answers to these questions from many different cultural and ideological backgrounds.",
+          "The meaning of life can be derived from philosophical and religious contemplation of, and scientific inquiries about, existence, social ties, consciousness, and happiness. Many other issues are also involved, such as symbolic meaning, ontology, value, purpose, ethics, good and evil, free will, the existence of one or multiple gods, conceptions of God, the soul, and the afterlife.",
+          "Scientific contributions focus primarily on describing related empirical facts about the universe, exploring the context and parameters concerning the \"how\" of life. Science also studies and can provide recommendations for the pursuit of well-being and a related conception of morality. An alternative, humanistic approach poses the question, \"What is the meaning of my life?\"",
+          "The first English use of the expression \"meaning of life\" appears in Thomas Carlyle's Sartor Resartus (1833–1834), book II chapter IX, \"The Everlasting Yea\". Our Life is compassed round with Necessity; yet is the meaning of Life itself no other than Freedom, than Voluntary Force: thus have we a warfare; in the beginning, especially, a hard-fought battle."
+        ]
+      },
+      {
+        "title": "r/Existentialism on Reddit: What is the meaning of life? Why are we here?",
+        "url": "https://www.reddit.com/r/Existentialism/comments/qhrf9q/what_is_the_meaning_of_life_why_are_we_here/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "You become who you are by making decisions, choices, and actions. Because we have no given purpose, we have to give one to ourselves. You decide what you value and what your passions are, that becomes the purpose of your life. The meaning of life is <strong>to be alive</strong>.",
+        "page_age": "2021-10-28T16:58:42",
+        "profile": {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/Existentialism/comments/qhrf9q/what_is_the_meaning_of_life_why_are_we_here/",
+          "long_name": "reddit.com",
+          "img": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "qa",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "reddit.com",
+          "hostname": "www.reddit.com",
+          "favicon": "https://imgs.search.brave.com/U-eHNCapRHVNWWCVPPMTIvOofZULh0_A_FQKe8xTE4I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8",
+          "path": "  › r/existentialism  › what is the meaning of life? why are we here?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/YFqBNAAbtyywHHv5hnVP5reQO1QOWXAmpqPsZglpfbo/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9zaGFy/ZS5yZWRkLml0L3By/ZXZpZXcvcG9zdC9x/aHJmOXE",
+          "original": "https://share.redd.it/preview/post/qhrf9q",
+          "logo": false
+        },
+        "age": "October 28, 2021",
+        "extra_snippets": [
+          "Explore Existentialism & adjacent philosophy | Frame the person at the heart of contemplation | Welcomes all to participate in casual and academic discussion ... I'm just asking this question because after realizing that religion is nothing but a fantasy story made to be fun for grown-ups, this made me question my existence as a human being. Do you know what life really means?",
+          "You become who you are by making decisions, choices, and actions. Because we have no given purpose, we have to give one to ourselves. You decide what you value and what your passions are, that becomes the purpose of your life. The meaning of life is to be alive.",
+          "There was a post reply I saw from years ago that has stuck with me to this day, it goes something like: \"Life is a beautiful thing, and while it's easy to get lost in the middle of everything it throws at you, you keep pushing to make the most of it. At the end of the day, you have an eternity to be dead/the other side, but only a small fraction of that to experience everything that it means to be human.\"",
+          "Life is dependent on circumstances that are mostly never in your control, specifically where you are born, who is in your family (when you are young that is unless you choose to run the hell away I guess but when you're older you can alienate family members you did not like and choose who to marry), what type of genetics you have, and so on but there are things that are within your control like the friends you make (this one is technically debatable because your friends when you are younger are determined by the environment you live in to some degree but also by your own personal choices and i"
+        ]
+      },
+      {
+        "title": "Why You’re (Probably) Wrong About The Meaning of Life | Issue 147 | Philosophy Now",
+        "url": "https://philosophynow.org/issues/147/Why_Youre_Probably_Wrong_About_The_Meaning_of_Life",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "To have complete access to the thousands of philosophy articles on this site, please ... After tragedy and heartbreak – after the war is lost, after the pandemic takes someone you love, after climate change destroys your home, after your <strong>life</strong> seems to be rendered nonsensical by illness, personal failure, or injustice – deep questions may linger like a bruise: What is <strong>the</strong> <strong>meaning</strong> ...",
+        "profile": {
+          "name": "Philosophy Now",
+          "url": "https://philosophynow.org/issues/147/Why_Youre_Probably_Wrong_About_The_Meaning_of_Life",
+          "long_name": "philosophynow.org",
+          "img": "https://imgs.search.brave.com/49Zf-wU9xOwqWQdvyQ8xhHCn-bgD9R4TAw1JQ_7hCug/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjcwMjE5ZmE4/NGIxMDgwYTFjOGI3/ZmUwMDIzZDY2Yzlh/MmYzMWZkNzkwNTFj/NDU4ZTE0NzlmMjgx/YzhhMzQzZS9waGls/b3NvcGh5bm93Lm9y/Zy8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "philosophynow.org",
+          "hostname": "philosophynow.org",
+          "favicon": "https://imgs.search.brave.com/49Zf-wU9xOwqWQdvyQ8xhHCn-bgD9R4TAw1JQ_7hCug/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjcwMjE5ZmE4/NGIxMDgwYTFjOGI3/ZmUwMDIzZDY2Yzlh/MmYzMWZkNzkwNTFj/NDU4ZTE0NzlmMjgx/YzhhMzQzZS9waGls/b3NvcGh5bm93Lm9y/Zy8",
+          "path": "› issues  › 147  › Why_Youre_Probably_Wrong_About_The_Meaning_of_Life"
+        },
+        "extra_snippets": [
+          "To have complete access to the thousands of philosophy articles on this site, please ... After tragedy and heartbreak – after the war is lost, after the pandemic takes someone you love, after climate change destroys your home, after your life seems to be rendered nonsensical by illness, personal failure, or injustice – deep questions may linger like a bruise: What is the meaning of all this?",
+          "Easy answers to such questions drop casually from the internet, books, and media. The meaning of life, we’re told, is pursuing pleasure or happiness, or giving and receiving love, or finding your passion, or doing something great, or living out your purpose, or being involved with something greater than yourself.",
+          "For most of the twentieth century, philosophers ignored or dismissed the question of life’s meaning, even though many lay people assume that philosophy is mostly about the meaning of life. A lot of those dismissive philosophers insisted that the question is nonsensical because ‘meaning’ typically refers to words and symbols, not to objects, activities, and lives.",
+          "To them, asking ‘What is the meaning of life?’ is like asking ‘How heavy is the color blue?’ Others thought that answering the question is in principle impossible, or that even if answerable, no one knows or ever will know the answer. However, over the past four decades this icy pessimism about meaning in life has been thawing."
+        ]
+      },
+      {
+        "title": "What Is the Meaning of Life? | Psychology Today",
+        "url": "https://www.psychologytoday.com/us/blog/hide-and-seek/201803/what-is-the-meaning-of-life",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Still today, many people believe that we, humankind, are <strong>the creation of a supernatural entity called God, that God had an intelligent purpose</strong> in creating us, and that this intelligent purpose is &quot;the meaning of life&quot;.",
+        "page_age": "2024-10-07T15:25:51",
+        "profile": {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/hide-and-seek/201803/what-is-the-meaning-of-life",
+          "long_name": "psychologytoday.com",
+          "img": "https://imgs.search.brave.com/CoM-pLWNrcwfeSirJUMQKqyXPuSeCPZjfKA7EGyu4_Y/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODFkYTAwNWEy/NTgwY2FmYjNjYzFm/YTExYzAxZDQ4N2Ew/YjY1ZTQxZTFjNjI0/ZmMyZWY5YWMyMWRl/OTNmMTU5OC93d3cu/cHN5Y2hvbG9neXRv/ZGF5LmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "psychologytoday.com",
+          "hostname": "www.psychologytoday.com",
+          "favicon": "https://imgs.search.brave.com/CoM-pLWNrcwfeSirJUMQKqyXPuSeCPZjfKA7EGyu4_Y/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODFkYTAwNWEy/NTgwY2FmYjNjYzFm/YTExYzAxZDQ4N2Ew/YjY1ZTQxZTFjNjI0/ZmMyZWY5YWMyMWRl/OTNmMTU5OC93d3cu/cHN5Y2hvbG9neXRv/ZGF5LmNvbS8",
+          "path": "› us  › blog  › hide-and-seek  › 201803  › what-is-the-meaning-of-life"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/vXzLBWMbt3J_eSfXXx9BQ8r5EplZqmCNmjNFi5m6fJo/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jZG4y/LnBzeWNob2xvZ3l0/b2RheS5jb20vYXNz/ZXRzL3N0eWxlcy9t/YW51YWxfY3JvcF8x/XzkxXzFfMTUyOHg4/MDAvcHVibGljL2Zp/ZWxkX2Jsb2dfZW50/cnlfdGVhc2VyX2lt/YWdlLzIwMTgtMDMv/cG9zZWlkb24uanBn/P2l0b2s9NHpELW1q/SUo",
+          "original": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2018-03/poseidon.jpg?itok=4zD-mjIJ",
+          "logo": false
+        },
+        "age": "October 7, 2024",
+        "extra_snippets": [
+          "Still today, many people believe that we, humankind, are the creation of a supernatural entity called God, that God had an intelligent purpose in creating us, and that this intelligent purpose is \"the meaning of life\".",
+          "To put this in Sartrean (or existentialist) terms, whereas for the galet it is true only that existence precedes essence, for the sock it is true both that essence precedes existence (when the sock is used on a human foot) and that existence precedes essence (when the sock is used for an unintended purpose, for example, as a bottle sleeve). We human beings are either like the rock or the sock, but whichever we are like, we are better off creating our own purpose or purposes. ... Plato once defined man as an animal, biped, featherless, and with broad nails (thereby excluding plucked chickens);",
+          "Life in the concentration camp taught Frankl that our main drive or motivation in life is neither pleasure, as Freud had believed, nor power, as Adler had believed, but meaning. After his release, Frankl founded the school of logotherapy (from the Greek logos, meaning \"reason\" or \"principle\"), which is sometimes referred to as the \"Third Viennese School of Psychotherapy\" for coming after those of Freud and Adler.",
+          "According to Frankl, meaning can be found through: Experiencing reality by interacting authentically with the environment and with others. Giving something back to the world through creativity and self-expression, and, Changing our attitude when faced with a situation or circumstance that we cannot change. \"The point,\" said Frankl, '\"is not what we expect from life, but rather what life expects from us.\" Read more in The Art of Failure: The Anti Self-Help Guide."
+        ]
+      },
+      {
+        "title": "Three Ways to See Meaning in Your Life",
+        "url": "https://greatergood.berkeley.edu/article/item/three_ways_to_see_meaning_in_your_life",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Help us continue to bring “the ... around the globe. ... Struggling to find a sense <strong>of</strong> <strong>meaning</strong> <strong>in</strong> <strong>life</strong>? Researchers have identified three different pathways to it. By Joshua A. Hicks, Laura A. King | November 2, 2021 ... Feeling that your <strong>life</strong> <strong>has</strong> <strong>meaning</strong> <strong>is</strong> fundamental ...",
+        "profile": {
+          "name": "Greater Good",
+          "url": "https://greatergood.berkeley.edu/article/item/three_ways_to_see_meaning_in_your_life",
+          "long_name": "greatergood.berkeley.edu",
+          "img": "https://imgs.search.brave.com/oCy451rdqjBsc9zgWZoZNxyKJtNVOd4ZBz0YxcZbvX0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDEyMWNhOTgw/MDBhYjgwMGYxYjA3/YWVmZGMwZGZlZjVi/MDQwYWIyOTc1OGRk/OWM1NDMxMmQzMjQ2/ZDdhMmRhOS9ncmVh/dGVyZ29vZC5iZXJr/ZWxleS5lZHUv"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "greatergood.berkeley.edu",
+          "hostname": "greatergood.berkeley.edu",
+          "favicon": "https://imgs.search.brave.com/oCy451rdqjBsc9zgWZoZNxyKJtNVOd4ZBz0YxcZbvX0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDEyMWNhOTgw/MDBhYjgwMGYxYjA3/YWVmZGMwZGZlZjVi/MDQwYWIyOTc1OGRk/OWM1NDMxMmQzMjQ2/ZDdhMmRhOS9ncmVh/dGVyZ29vZC5iZXJr/ZWxleS5lZHUv",
+          "path": "› article  › item  › three_ways_to_see_meaning_in_your_life"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/r2qXEbY5zdxgHwiRKZAZRlKv5sTWSNdzQR3aV9k1UZA/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9nZ3Nj/LnMzLnVzLXdlc3Qt/Mi5hbWF6b25hd3Mu/Y29tL2Fzc2V0cy9p/bWFnZXMvdGhyZWVf/cGF0aHdheXNfdG9f/bWVhbmluZ19pbl9s/aWZlXy1fYWJjZGVm/Xy1fMGEyMWIzOTEz/NGIzMTZlNTFjZGMw/ZGQ5NmM1ZTZiY2Ez/YzAwOTNlOS1mYl8t/X2FiY2RlZl8tXzk0/YjE1NzQyY2NkZmMz/YjE2ZmIxZmUzNTg3/MjE2N2ZlOGQ0MmMz/NWQud2VicA",
+          "original": "https://ggsc.s3.us-west-2.amazonaws.com/assets/images/three_pathways_to_meaning_in_life_-_abcdef_-_0a21b39134b316e51cdc0dd96c5e6bca3c0093e9-fb_-_abcdef_-_94b15742ccdfc3b16fb1fe35872167fe8d42c35d.webp",
+          "logo": false
+        },
+        "extra_snippets": [
+          "Help us continue to bring “the science of a meaningful life” to you and to millions around the globe. ... Struggling to find a sense of meaning in life? Researchers have identified three different pathways to it. By Joshua A. Hicks, Laura A. King | November 2, 2021 ... Feeling that your life has meaning is fundamental to the experience of being human, and people who feel this way tend to be healthier and happier.",
+          "Given the importance that most people place on meaning, how might we cultivate the feeling that life is meaningful? For most of the 20th century, philosophers, psychologists, and psychiatrists argued that meaning in life is a rare, profound experience, attainable through an active search, deep self-reflection, or some other arduous way of creating meaning in a seemingly meaningless world.",
+          "But we now know that most people, most of the time, report that their lives feel more meaningful than not. Although actively constructing meaning may be required in some cases—for example, when your world is turned upside down after a traumatic event—cultivating meaning in life may be as simple as detecting the meaning that is already there.",
+          "Based on those three pathways, here are some relatively simple things you can do to maintain or enhance your experience of meaning in life.  · There is great comfort in believing that your life and actions matter in the grand scheme of things. This conviction is referred to as “existential mattering” and is a strong component of the experience of meaning in life."
+        ]
+      },
+      {
+        "title": "The Meaning of Life (Stanford Encyclopedia of Philosophy)",
+        "url": "https://plato.stanford.edu/entries/life-meaning/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Relatedly, think about Koheleth, ... a person ought to realize that would make her <strong>life</strong> significant (if any would). Despite the venerable pedigree, it is only since the 1980s or so that a distinct field of <strong>the</strong> <strong>meaning</strong> <strong>of</strong> <strong>life</strong> has been established in Anglo-American-Australasian ...",
+        "profile": {
+          "name": "Stanford",
+          "url": "https://plato.stanford.edu/entries/life-meaning/",
+          "long_name": "plato.stanford.edu",
+          "img": "https://imgs.search.brave.com/7jwNAnWduRh8S0WHufLdMn3Zmnp7WB0kwWgANsqt8Yk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvY2EwMmRlZTdh/MjZlZDM0NmE5OGNl/YTMyNThjNDdjMDlh/NGNkNTFmNjQ1YTEz/OTQ2MjViMDlhMGE2/Mzk3Njk0My9wbGF0/by5zdGFuZm9yZC5l/ZHUv"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "plato.stanford.edu",
+          "hostname": "plato.stanford.edu",
+          "favicon": "https://imgs.search.brave.com/7jwNAnWduRh8S0WHufLdMn3Zmnp7WB0kwWgANsqt8Yk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvY2EwMmRlZTdh/MjZlZDM0NmE5OGNl/YTMyNThjNDdjMDlh/NGNkNTFmNjQ1YTEz/OTQ2MjViMDlhMGE2/Mzk3Njk0My9wbGF0/by5zdGFuZm9yZC5l/ZHUv",
+          "path": "› entries  › life-meaning"
+        },
+        "extra_snippets": [
+          "Relatedly, think about Koheleth, the presumed author of the Biblical book Ecclesiastes, describing life as “futility” and akin to “the pursuit of wind,” Nietzsche on nihilism, as well as Schopenhauer when he remarks that whenever we reach a goal we have longed for we discover “how vain and empty it is.” While these concepts have some bearing on happiness and virtue (and their opposites), they are straightforwardly construed (roughly) as accounts of which highly ranked purposes a person ought to realize that would make her life significant (if any would). Despite the venerable pedigree, it is only since the 1980s or so that a distinct field of the meaning of life has been established in Anglo-American-Australasian philosophy, on which this survey focuses, and it is only in the past 20 years that debate with real depth and intricacy has appeared.",
+          "Two decades ago analytic reflection on life’s meaning was described as a “backwater” compared to that on well-being or good character, and it was possible to cite nearly all the literature in a given critical discussion of the field (Metz 2002). Neither is true any longer.",
+          "This survey’s central aim is to acquaint the reader with current analytic approaches to life’s meaning, sketching major debates and pointing out neglected topics that merit further consideration. When the topic of the meaning of life comes up, people tend to pose one of three questions: “What are you talking about?”, “What is the meaning of life?”, and “Is life in fact meaningful?”. The literature on life's meaning composed by those working in the analytic tradition (on which this entry focuses) can be usefully organized according to which question it seeks to answer.",
+          "This survey starts off with recent work that addresses the first, abstract (or “meta”) question regarding the sense of talk of “life’s meaning,” i.e., that aims to clarify what we have in mind when inquiring into the meaning of life (section 1). Afterward, it considers texts that provide answers to the more substantive question about the nature of meaningfulness (sections 2–3). There is in the making a sub-field of applied meaning that parallels applied ethics, in which meaningfulness is considered in the context of particular cases or specific themes."
+        ]
+      },
+      {
+        "title": "What is the meaning of life? 15 possible answers – from a palliative care doctor, a Holocaust survivor, a jail inmate and more | Philosophy books | The Guardian",
+        "url": "https://www.theguardian.com/books/2025/mar/22/what-is-the-meaning-of-life-15-possible-answers-from-a-palliative-care-doctor-a-holocaust-survivor-a-jail-inmate-and-more",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "I asked some well-known names for their thoughts on the ultimate existential question. Their answers were fascinating, funny – and could help us frame our days on Earth",
+        "page_age": "2025-03-22T15:35:24",
+        "profile": {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/books/2025/mar/22/what-is-the-meaning-of-life-15-possible-answers-from-a-palliative-care-doctor-a-holocaust-survivor-a-jail-inmate-and-more",
+          "long_name": "theguardian.com",
+          "img": "https://imgs.search.brave.com/rC70n-17a9InstnH-PH4YuXbWwFkdbesPtRJKvIQAwQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGRmYTNkMTZl/NmJhYTQwYmQ4NDRj/MzQ4NDZkNGQ0YTgy/ZWRlZDM4YWVkMzM4/NmM0Y2Y2NTgyMTQ5/NzQxOTExYy93d3cu/dGhlZ3VhcmRpYW4u/Y29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "theguardian.com",
+          "hostname": "www.theguardian.com",
+          "favicon": "https://imgs.search.brave.com/rC70n-17a9InstnH-PH4YuXbWwFkdbesPtRJKvIQAwQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGRmYTNkMTZl/NmJhYTQwYmQ4NDRj/MzQ4NDZkNGQ0YTgy/ZWRlZDM4YWVkMzM4/NmM0Y2Y2NTgyMTQ5/NzQxOTExYy93d3cu/dGhlZ3VhcmRpYW4u/Y29tLw",
+          "path": "› books  › 2025  › mar  › 22  › what-is-the-meaning-of-life-15-possible-answers-from-a-palliative-care-doctor-a-holocaust-survivor-a-jail-inmate-and-more"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/pKKKznXg0J7HHBAokGXqQIbR4-khn6yIwysQ8WdrwFc/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLmd1/aW0uY28udWsvaW1n/L21lZGlhLzk4Yzk3/NDBmNTEyNTRkY2Qw/ODJlZTNmZTNiNGJm/ZjUwNzBhOWMxMDIv/MF8zMzNfNDEyNF8y/NDc1L21hc3Rlci80/MTI0LmpwZz93aWR0/aD0xMjAwJmhlaWdo/dD02MzAmcXVhbGl0/eT04NSZhdXRvPWZv/cm1hdCZmaXQ9Y3Jv/cCZvdmVybGF5LWFs/aWduPWJvdHRvbSUy/Q2xlZnQmb3Zlcmxh/eS13aWR0aD0xMDBw/Jm92ZXJsYXktYmFz/ZTY0PUwybHRaeTl6/ZEdGMGFXTXZiM1ps/Y214aGVYTXZkR2N0/WkdWbVlYVnNkQzV3/Ym1jJmVuYWJsZT11/cHNjYWxlJnM9OTY5/NzUzMjExZjFiNGQy/N2E1NmU1MDA1NjNk/MjhkODc",
+          "original": "https://i.guim.co.uk/img/media/98c9740f51254dcd082ee3fe3b4bff5070a9c102/0_333_4124_2475/master/4124.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=969753211f1b4d27a56e500563d28d87",
+          "logo": false
+        },
+        "age": "March 22, 2025",
+        "extra_snippets": [
+          "During the three months I spent living in the holiday park, walking the cliffs and trying to figure out my life, these responses greatly inspired me. Perhaps, as Wolf Hall author Hilary Mantel alluded to in her answer, meaning had emerged through the practice of the quest. What follows is a small selection of the responses, from philosophers to politicians, prisoners to playwrights.",
+          "My letter In 1931, the philosopher Will Durant wrote to 100 luminaries in the arts, politics, religion and sciences, challenging them to respond not only to the fundamental question of life’s meaning but also to relate how they each found meaning, purpose and fulfilment in their own lives. I am currently replicating Durant’s study, and I’d be most appreciative if you could tell me what you think the meaning of life is, and how you find meaning, purpose and fulfilment in your own life?",
+          "It’s not something I can respond to, I’m afraid, because it’s not clear to me how “life” can have a “meaning” in any ordinary sense of either word. It might be an idea to start with something smaller, say a pickled walnut. Once we’ve got it clear how a pickled walnut could have a “meaning”, we might move on to something larger – the borough of Haringey, say, or influenza – and work our way up. ... Every moment is precious – even the terrible moments.",
+          "That’s what I’ve learned from spending 40 years caring for people with incurable illnesses, gleaning insights into what gives our lives meaning. Watching people living their dying has been an enormous privilege, especially as it’s shown me that it isn’t until we really grasp the truth of our own mortality that we awaken to the preciousness of being alive. Every life is a journey from innocence to wisdom."
+        ]
+      },
+      {
+        "title": "What Is the Meaning of Life According to Positive Psychology",
+        "url": "https://positivepsychology.com/meaning-of-life-positive-psychology/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "&quot;What is <strong>the</strong> <strong>meaning</strong> <strong>of</strong> <strong>life</strong>?&quot; How would a positive psychology practitioner answer this question? Let&#x27;s take a deep dive into <strong>meaning</strong>.",
+        "page_age": "2018-02-06T10:21:12",
+        "profile": {
+          "name": "Positivepsychology",
+          "url": "https://positivepsychology.com/meaning-of-life-positive-psychology/",
+          "long_name": "positivepsychology.com",
+          "img": "https://imgs.search.brave.com/IYaQLaMQAXtYCUZCFvdG2cezKMqX_6Hvv1_5pgiMmdI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjI0NDVjMWZl/NTE1MzVmZWFhNjgw/NjA3NjVlZTQyNTRh/NTBhYjJlY2YyZTAz/N2FiZDVmOTFmNDE2/MzIxN2QyNi9wb3Np/dGl2ZXBzeWNob2xv/Z3kuY29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "positivepsychology.com",
+          "hostname": "positivepsychology.com",
+          "favicon": "https://imgs.search.brave.com/IYaQLaMQAXtYCUZCFvdG2cezKMqX_6Hvv1_5pgiMmdI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjI0NDVjMWZl/NTE1MzVmZWFhNjgw/NjA3NjVlZTQyNTRh/NTBhYjJlY2YyZTAz/N2FiZDVmOTFmNDE2/MzIxN2QyNi9wb3Np/dGl2ZXBzeWNob2xv/Z3kuY29tLw",
+          "path": "› meaning-of-life-positive-psychology"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/jCAYIOiRgAr6ngh3TT9Rw4VyNovX3nYvhBMTHJH7ivQ/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9wb3Np/dGl2ZS5iLWNkbi5u/ZXQvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjUvMDQvTWVhbmlu/Zy1vZi1saWZlLmpw/Zw",
+          "original": "https://positive.b-cdn.net/wp-content/uploads/2025/04/Meaning-of-life.jpg",
+          "logo": false
+        },
+        "age": "February 6, 2018",
+        "extra_snippets": [
+          "Building meaningful connections & contributing to something larger than oneself enriches life, promoting happiness & satisfaction. Throughout modern history, one of the questions that humans have asked the most is",
+          "Luckily, humans are resourceful – we have infinite ways of finding meaning, and infinite potential sources of meaning. We can find meaning in every scenario, every event, every occurrence, every context. We can find meaning in the sublime, in the absurd, in the dull and dreary, and in the perfectly wretched in life. We intuitively know that we want meaning in our lives, and that meaning helps us thrive, but we rarely stop to ask: “Why do we need meaning? How does meaning affect us? What even IS meaning?”",
+          "In this piece, we’ll go over what meaning is, where it may come from, how it can be found, and other important topics related to meaning in life. Before you read on, we thought you might like to download our three Meaning and Valued Living Exercises for free. These creative, science-based exercises will help you learn more about your values, motivations, and goals and will give you the tools to inspire a sense of meaning in the lives of your clients, students, or employees.",
+          "As you can probably imagine, philosophers have spent countless hours considering the concept of meaning, as well as the “meaning of meaning.” · “Life has no meaning. Each of us has meaning and we bring it to life. It is a waste to be asking the question when you are the answer.”"
+        ]
+      },
+      {
+        "title": "What Is the Meaning of Life? - The School of Life",
+        "url": "https://www.theschooloflife.com/article/the-meaning-of-life/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "<strong>Life</strong> has no preset <strong>meaning</strong>, but we can create one. Explore how connection, understanding, and service can help us build a meaningful <strong>life</strong>.",
+        "page_age": "2018-09-15T15:08:10",
+        "profile": {
+          "name": "The School of Life",
+          "url": "https://www.theschooloflife.com/article/the-meaning-of-life/",
+          "long_name": "theschooloflife.com",
+          "img": "https://imgs.search.brave.com/qJ-Qxnn3-nK3kG6UVFYgTOu8GUFA4R5qv8-wo1mncVo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGM3OWJkOWJh/OWIxMTgyOTk4NGNm/YjhjN2QwMzE4Y2Zh/MGYwYWM4MzlhMmVk/Yzk4ODBlZDMxMDFh/ZTc5NWQyYS93d3cu/dGhlc2Nob29sb2Zs/aWZlLmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "theschooloflife.com",
+          "hostname": "www.theschooloflife.com",
+          "favicon": "https://imgs.search.brave.com/qJ-Qxnn3-nK3kG6UVFYgTOu8GUFA4R5qv8-wo1mncVo/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGM3OWJkOWJh/OWIxMTgyOTk4NGNm/YjhjN2QwMzE4Y2Zh/MGYwYWM4MzlhMmVk/Yzk4ODBlZDMxMDFh/ZTc5NWQyYS93d3cu/dGhlc2Nob29sb2Zs/aWZlLmNvbS8",
+          "path": "  › home  › articles  › what is the meaning of life?"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/IlZVt60cPi9G9iQep2bUX39X-I3vknSXse-Hn3OVSZ4/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudGhlc2Nob29s/b2ZsaWZlLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/MS8yNzAwNTkwOC82/NDBweC1DYXJhdmFn/Z2lvLmVtbWF1cy43/NTBwaXguanBn",
+          "original": "https://assets.theschooloflife.com/wp-content/uploads/2022/01/27005908/640px-Caravaggio.emmaus.750pix.jpg",
+          "logo": false
+        },
+        "age": "September 15, 2018",
+        "extra_snippets": [
+          "Two reasons are often cited for this. The first has to do with religion. Once upon a time, so the story goes, life had a clear meaning given to us by God: it was about worshiping Him and living according to His dictates. But as religious belief has declined, not only has god supposedly died, but along with him, the meaning he once guaranteed. Modern science is the second cause of the current crisis of meaning.",
+          "Scientists tell us that existence, which emerged from a random interplay of chemicals and gases, does have meaning, but it’s of a rather bleak, relentless and narrow sort: for humans – as for all other living things (like amoeba) – the meaning of life is survival and the propagation of one’s genetic material.",
+          "Here we want to argue as follows: to wonder about the meaning of life is an extremely important activity, life does have substantial meaning – and there are, in fact, a range of practical steps we can take to ensure we end up leading lives of maximal meaningfulness.",
+          "There isn’t any kind of objective meaning written in the stars, in a holy book or in sequences of DNA. What seems to prompt people to complain that life lacks meaning are particular varieties of unhappiness."
+        ]
+      },
+      {
+        "title": "What is the meaning of life? | GotQuestions.org",
+        "url": "https://www.gotquestions.org/meaning-of-life.html",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Answer What is <strong>the</strong> <strong>meaning</strong> <strong>of</strong> <strong>life</strong>? How can purpose, fulfillment, and satisfaction in <strong>life</strong> be found? How can something of lasting significance be achieved? Many people have never stopped to consider these important questions. They look back years later and wonder why their relationships have ...",
+        "page_age": "2009-05-17T18:01:03",
+        "profile": {
+          "name": "Gotquestions",
+          "url": "https://www.gotquestions.org/meaning-of-life.html",
+          "long_name": "gotquestions.org",
+          "img": "https://imgs.search.brave.com/zCigexTwaznG8p4vzl94cibPPkdqi2Ca5o7MomwiLHY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjNjZmU0ZDY2/MjBmNTIzYjE5MDc1/OWFhMDlmNzQ1N2My/NWU4OTdmODgxOWFl/ZTIxOTA3YmI2Nzg4/OWZmNjk0OS93d3cu/Z290cXVlc3Rpb25z/Lm9yZy8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "gotquestions.org",
+          "hostname": "www.gotquestions.org",
+          "favicon": "https://imgs.search.brave.com/zCigexTwaznG8p4vzl94cibPPkdqi2Ca5o7MomwiLHY/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjNjZmU0ZDY2/MjBmNTIzYjE5MDc1/OWFhMDlmNzQ1N2My/NWU4OTdmODgxOWFl/ZTIxOTA3YmI2Nzg4/OWZmNjk0OS93d3cu/Z290cXVlc3Rpb25z/Lm9yZy8",
+          "path": "› meaning-of-life.html"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/JM-vBJ_jKe73i3S7s3oLoJXtKNjgV-a_0m89dI7qeZk/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/Z290cXVlc3Rpb25z/Lm9yZy9pbWcvR1Fs/b2dvLnBuZw",
+          "original": "https://www.gotquestions.org/img/GQlogo.png",
+          "logo": true
+        },
+        "age": "May 17, 2009",
+        "extra_snippets": [
+          "Answer What is the meaning of life? How can purpose, fulfillment, and satisfaction in life be found? How can something of lasting significance be achieved? Many people have never stopped to consider these important questions. They look back years later and wonder why their relationships have fallen apart and why they feel so empty, even though they may have achieved what they set out to accomplish.",
+          "People have testified that, while they achieved their goals of wealth, relationships, and pleasure, there was still a deep void inside, a feeling of emptiness that nothing seemed to fill. The author of the book of Ecclesiastes looked for the meaning of life in many vain pursuits. He describes the feeling of emptiness he felt: “Meaningless! Meaningless! . . . Utterly meaningless! Everything is meaningless” (Ecclesiastes 1:2).",
+          "King Solomon, the writer of Ecclesiastes, had wealth beyond measure, wisdom beyond any man of his time or ours, hundreds of women, palaces and gardens that were the envy of kingdoms, the best food and wine, and every form of entertainment available. He said at one point that anything his heart wanted, he pursued (Ecclesiastes 2:10). Yet he summed up life “under the sun”—life lived as though all there is to life is what we can see with our eyes and experience with our senses—as meaningless.",
+          "Solomon said of God, “He has also set eternity in the hearts of men” (Ecclesiastes 3:11). In our hearts we are aware that the “here-and-now” is not all there is. In the book of Genesis, we find a clue to the meaning of life in that God created mankind in His image (Genesis 1:26)."
+        ]
+      },
+      {
+        "title": "Amazon.com: The Meaning of Life: 9780995753549: The School of Life, de Botton, Alain: Books",
+        "url": "https://www.amazon.com/The-Meaning-of-Life/dp/0995753547",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "This book presents a range of areas in which we can seek the meaning of life, including <strong>love, family, friendship, work, self-knowledge and nature</strong>. We discover why some things feel meaningful and others don&#x27;t, and learn how to introduce more meaning into our daily lives.",
+        "profile": {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/The-Meaning-of-Life/dp/0995753547",
+          "long_name": "amazon.com",
+          "img": "https://imgs.search.brave.com/1SmDks4CPsuEM1txgXrUz2cuSfM8XLjvrvTIacq4V2s/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODYwYzA4NzE1/OTE2NzM1YTQ1OWNj/Zjg0MmI0Y2U2YzI2/ODE5NmZhNGZjODA4/N2Y0NmI1ZmU4ZWQy/ZmM2MjdmMS93d3cu/YW1hem9uLmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "amazon.com",
+          "hostname": "www.amazon.com",
+          "favicon": "https://imgs.search.brave.com/1SmDks4CPsuEM1txgXrUz2cuSfM8XLjvrvTIacq4V2s/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODYwYzA4NzE1/OTE2NzM1YTQ1OWNj/Zjg0MmI0Y2U2YzI2/ODE5NmZhNGZjODA4/N2Y0NmI1ZmU4ZWQy/ZmM2MjdmMS93d3cu/YW1hem9uLmNvbS8",
+          "path": "› The-Meaning-of-Life  › dp  › 0995753547"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/bA9aHjTvmNDTpgBVExTR6vJuOlswGgD3_AHVgB5fYu8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/OTFKMWNoS1A5Tkwu/anBn",
+          "original": "https://m.media-amazon.com/images/I/91J1chKP9NL.jpg",
+          "logo": false
+        },
+        "extra_snippets": [
+          "It may seem useless, silly, or overwhelming to ponder the meaning of life. In truth, it is essential to ask ourselves this question in order to define and work towards a more meaningful existence.",
+          "This book presents a range of areas in which we can seek the meaning of life, including love, family, friendship, work, self-knowledge and nature. We discover why some things feel meaningful and others don't, and learn how to introduce more meaning into our daily lives.",
+          "ADDRESSES THE BIG QUESTIONS with insight and compassion. HOW TO PURSUE A MEANINGFUL LIFE a philosophical approach to finding meaning. EXPLORES SOURCES OF MEANING from love and family, to work, culture and nature.",
+          "Amazon.com: The Meaning of Life: 9780995753549: The School of Life, de Botton, Alain: Books"
+        ]
+      },
+      {
+        "title": "The True Meaning Of Life (Animated Cinematic) - YouTube",
+        "url": "https://www.youtube.com/watch?v=BdTGkd_sbNs&pp=0gcJCdgAo7VqN5tD",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "&quot;What is <strong>the</strong> <strong>meaning</strong> <strong>of</strong> <strong>life</strong>?&quot; This is a question that humans have been asking for decades without a proper answer. This video is my attempt to explain what ...",
+        "page_age": "2021-09-19T14:45:01",
+        "profile": {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/watch?v=BdTGkd_sbNs&pp=0gcJCdgAo7VqN5tD",
+          "long_name": "youtube.com",
+          "img": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "video",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/_AM7OCnH_8lFPxXDFWrfWe27QluMyRZbVfy_YTE9tO0/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9C/ZFRHa2Rfc2JOcy9t/YXhyZXNkZWZhdWx0/LmpwZw",
+          "original": "https://i.ytimg.com/vi/BdTGkd_sbNs/maxresdefault.jpg",
+          "logo": false
+        },
+        "age": "September 19, 2021"
+      },
+      {
+        "title": "What Is the Meaning of Life? | Mark Manson",
+        "url": "https://markmanson.net/the-meaning-of-life",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "It&#x27;s the ultimate question. The question that you and I and everyone has laid awake at night thinking about: What is <strong>the</strong> <strong>meaning</strong> <strong>of</strong> <strong>life</strong>?",
+        "page_age": "2023-02-08T16:28:14",
+        "profile": {
+          "name": "Mark Manson",
+          "url": "https://markmanson.net/the-meaning-of-life",
+          "long_name": "markmanson.net",
+          "img": "https://imgs.search.brave.com/w1ByXtSNifU_t_30amJEDSe7I9cBqtK7KVYDksq9qkc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDU5YjExMjAy/YjNmYWQ0ZjhjYjFk/NWM4YWE5NTExZDk0/ZDc3YTYwZjIyODM3/Y2Q3MTYyZTY0ZTlj/YzNjNGU0Yi9tYXJr/bWFuc29uLm5ldC8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "markmanson.net",
+          "hostname": "markmanson.net",
+          "favicon": "https://imgs.search.brave.com/w1ByXtSNifU_t_30amJEDSe7I9cBqtK7KVYDksq9qkc/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDU5YjExMjAy/YjNmYWQ0ZjhjYjFk/NWM4YWE5NTExZDk0/ZDc3YTYwZjIyODM3/Y2Q3MTYyZTY0ZTlj/YzNjNGU0Yi9tYXJr/bWFuc29uLm5ldC8",
+          "path": "  › home  › what is the meaning of life? | mark manson"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/WKCSSiLE403UD4m_yEKmFlaHPS_-ghiaKJce3e0sMA0/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9tYXJr/bWFuc29uLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNy8w/My90aGUtbWVhbmlu/Zy1vZi1saWZlLWNv/dmVyLWhhbS1zYW5k/d2ljaC5qcGc",
+          "original": "https://markmanson.net/wp-content/uploads/2017/03/the-meaning-of-life-cover-ham-sandwich.jpg",
+          "logo": false
+        },
+        "age": "February 8, 2023",
+        "extra_snippets": [
+          "You know the question. It’s the ultimate question. The question that you and I and everyone have lain awake at night thinking about. The question that brings equal parts wonder and terror to our feeble minds. Why are we here? What is the point of it all? What is the meaning of life?",
+          "That’s why your friends are sometimes the biggest assholes—because that meaning you just shared, to them, meant something completely different. Enter your email address below and I’ll send you a 29-page guide to help you figure out your life purpose. Your information is protected and I never spam, ever. You can view my privacy policy here. Our brains slap together two different types of meaning:",
+          "Meaning requires action. Meaning is something that we must continually find and nurture. Consistently. Man’s great search for the meaning of life usually ends like this.",
+          "And like water, meaning flows through us—what is important today is not what was important years ago, and what is important tomorrow will not be the same as what is important today. Meaning must be sought out and replenished frequently. In a very real sense, the meaning of life is therefore to create meaning."
+        ]
+      },
+      {
+        "title": "The Meaning of Life - resilience",
+        "url": "https://www.resilience.org/stories/2023-09-15/the-meaning-of-life/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "There is no <strong>the</strong> <strong>meaning</strong> <strong>of</strong> <strong>life</strong>. <strong>Life</strong> <strong>is</strong> bigger by far than that! It&#x27;s meaningfulness is infinite!",
+        "page_age": "2023-09-15T10:02:17",
+        "profile": {
+          "name": "resilience",
+          "url": "https://www.resilience.org/stories/2023-09-15/the-meaning-of-life/",
+          "long_name": "resilience.org",
+          "img": "https://imgs.search.brave.com/XWK6f61n36boU6_wGVdzqgdWwoIYAiesv4GQE0KHD6U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYmRlYzUxMjUz/MDliNDc3OWVjYzQ4/NzM4Yjc0NTc5ZmJh/OGMyYjZhMTk1NDhm/YzczOGVlMGU2YzNk/MGYzZmE0Yy93d3cu/cmVzaWxpZW5jZS5v/cmcv"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "resilience.org",
+          "hostname": "www.resilience.org",
+          "favicon": "https://imgs.search.brave.com/XWK6f61n36boU6_wGVdzqgdWwoIYAiesv4GQE0KHD6U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYmRlYzUxMjUz/MDliNDc3OWVjYzQ4/NzM4Yjc0NTc5ZmJh/OGMyYjZhMTk1NDhm/YzczOGVlMGU2YzNk/MGYzZmE0Yy93d3cu/cmVzaWxpZW5jZS5v/cmcv",
+          "path": "  › home  › the meaning of life"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/WQ9sVJ3_Pshmnw2p3h6fbiX5LlO0IAK5Gf8Oo3gwOI8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVzaWxpZW5jZS5v/cmcvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDkvM2ZmNTMx/YzktYjgxNy00ZjRi/LWFhMjgtZTJmZDc2/Y2Q2MmVkXzgwMHg1/MzMud2VicA",
+          "original": "https://www.resilience.org/wp-content/uploads/2023/09/3ff531c9-b817-4f4b-aa28-e2fd76cd62ed_800x533.webp",
+          "logo": false
+        },
+        "age": "September 15, 2023",
+        "extra_snippets": [
+          "Resilience is a program of the nonprofit organization Post Carbon Institute. ... By James R. Martin, originally published by The R-word ... Here’s my reply. Usually, when we hear questions concerning “the meaning of life,” we tend to assume two things about the question.",
+          "So we don’t tend to think it is a question about life, generally, in the biological sense of “life” · 2. We tend to assume that “meaning” refers to sense 3 here, not the other senses: https://www.merriam-webster.com/dictionary/meaning So asking about “meaning” is asking about purpose and significance to human life, generally.",
+          "It’s also a value question, usually. “What is the value of human life?” or “What does it mean to lead a good life?” or “How can I live a life with value?” or “How can I find value in existing?”",
+          "I tend to consider the notion of the meaning of words, events, etc., and “the meaning of life” as together comprising a sense of the meaning of “meaning”. Meaning can be understood in this combined sense, and when people ask “What is the meaning of life, they tend to be asking about both senses together."
+        ]
+      },
+      {
+        "title": "Meaning of Life, The: Early Continental and Analytic Perspectives | Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/mean-ear/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "In asking about <strong>the</strong> <strong>meaning</strong> <strong>of</strong> <strong>life</strong>, one may be asking about the essence <strong>of</strong> <strong>life</strong>, <strong>about</strong> <strong>life</strong>’s purpose, about whether and how anything matters, or a host of other things. Not everyone is plagued by questions about <strong>life</strong>’<strong>s</strong> <strong>meaning</strong>, but some are.",
+        "profile": {
+          "name": "Utm",
+          "url": "https://iep.utm.edu/mean-ear/",
+          "long_name": "iep.utm.edu",
+          "img": "https://imgs.search.brave.com/LOsiZuG6EfhMqqlyZyeZ8C1b06Ig9mqWMvlsHlS9Bho/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMmY2NjVmZmQz/MDZkZjk1MWE0MTU3/MzQ0ZjJkZGY5NDVk/MmI5ODQwNjYyMjY3/MDcyNmI5MDU0ZmZh/MTY4YTUzZi9pZXAu/dXRtLmVkdS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "iep.utm.edu",
+          "hostname": "iep.utm.edu",
+          "favicon": "https://imgs.search.brave.com/LOsiZuG6EfhMqqlyZyeZ8C1b06Ig9mqWMvlsHlS9Bho/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMmY2NjVmZmQz/MDZkZjk1MWE0MTU3/MzQ0ZjJkZGY5NDVk/MmI5ODQwNjYyMjY3/MDcyNmI5MDU0ZmZh/MTY4YTUzZi9pZXAu/dXRtLmVkdS8",
+          "path": "› mean-ear"
+        },
+        "extra_snippets": [
+          "The circumstances in which one does ask about life’s meaning include those in which: one is well off but bothered by either a sense of dissatisfaction or the prospect of bad things to come; one is young at heart and has a sense of wonder; one is perplexed by the discordant plurality of things and wants to find some unity in all the diversity; or one has lost faith in old values and narratives and wants to know how to live in order to have a meaningful life.",
+          "The best way to cope with this fact, he held, is to live life with passion, using everything up, and with an attitude of revolt, defiance, or scorn. In the Anglo-American tradition, William James held that life is meaningful and worth living because of a spiritual order in which we should believe, or else that it is meaningful when there is a marriage of ideals with pluck, will, and the manly virtues; Bertrand Russell argued that to live a meaningful life one must abandon private and petty interests and instead cultivate an interest in the eternal; Moritz Schlick argued that the meaning of life is to be found in play; and A.",
+          "J. Ayer asserted that the question of the meaning of life is itself meaningless. All of these set the table for a veritable feast of philosophical writing on the meaning of life that began in the 1950s with Kurt Baier’s essay “The Meaning of Life,” followed in 1970 by Richard Taylor’s influential essay on the same topic, followed shortly by Thomas Nagel’s important 1971 essay on “The Absurd.” See “Meaning of Life: The Analytic Perspective” for more on the course of the debate in analytic philosophy about the meaning of life.",
+          "One asks about the meaning of some puzzling utterance, or of the writing on the wall, or of the vision that appeared to somebody in the night, or of the ritual performed on a hallowed occasion. Meaning is often conceived of as something non-obvious and somewhat secretive, discernible only by a seer granted with special powers. It is much later that life is spoken of as something that might, or might not, have meaning in this sense."
+        ]
+      },
+      {
+        "title": "Alan Watts - The Meaning Of Life",
+        "url": "https://www.youtube.com/watch?v=EDqqB8kh_Ek",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "profile": {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/watch?v=EDqqB8kh_Ek",
+          "long_name": "youtube.com",
+          "img": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        }
+      },
+      {
+        "title": "What Is the Meaning of Life? | Desiring God",
+        "url": "https://www.desiringgod.org/interviews/what-is-the-meaning-of-life",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "When <strong>life</strong> just doesn’t seem to make sense, or even when it seems void of any <strong>meaning</strong> at all, what can help us to know our purpose again?",
+        "page_age": "2021-02-19T18:01:03",
+        "profile": {
+          "name": "Desiring God",
+          "url": "https://www.desiringgod.org/interviews/what-is-the-meaning-of-life",
+          "long_name": "desiringgod.org",
+          "img": "https://imgs.search.brave.com/NNH7mhNnyA1y24G3YjXc0HskFEs9jBVxl2eExo9Xk7U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjFiYTM5MGUz/MmNkNDZjM2YzNGYy/NzU3MDk2ZmQ3MDQz/MTQ2MmRhY2MzM2I1/NDRkMTk3YTVlOWMy/ZTgwNmQyZC93d3cu/ZGVzaXJpbmdnb2Qu/b3JnLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "desiringgod.org",
+          "hostname": "www.desiringgod.org",
+          "favicon": "https://imgs.search.brave.com/NNH7mhNnyA1y24G3YjXc0HskFEs9jBVxl2eExo9Xk7U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjFiYTM5MGUz/MmNkNDZjM2YzNGYy/NzU3MDk2ZmQ3MDQz/MTQ2MmRhY2MzM2I1/NDRkMTk3YTVlOWMy/ZTgwNmQyZC93d3cu/ZGVzaXJpbmdnb2Qu/b3JnLw",
+          "path": "› interviews  › what-is-the-meaning-of-life"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/XD289fXFP5Bp-zYPHTo5ctTyJd-_OM9KLGg_T9oHyOE/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9kZy5p/bWdpeC5uZXQvd2hh/dC1pcy10aGUtbWVh/bmluZy1vZi1saWZl/LXFwcGVnMm9oLWVu/L2xhbmRzY2FwZS93/aGF0LWlzLXRoZS1t/ZWFuaW5nLW9mLWxp/ZmUtcXBwZWcyb2gt/MmRjZjc1ODZlNTJl/YzkzNzliZGZlMWMx/ZTdhZTg2OTUuanBn/P3RzPTE2MDk4Nzkw/NjMmaXhsaWI9cmFp/bHMtNC4zLjEmZml0/PWNyb3Amdz0yMDAw/Jmg9MTA1MA",
+          "original": "https://dg.imgix.net/what-is-the-meaning-of-life-qppeg2oh-en/landscape/what-is-the-meaning-of-life-qppeg2oh-2dcf7586e52ec9379bdfe1c1e7ae8695.jpg?ts=1609879063&ixlib=rails-4.3.1&fit=crop&w=2000&h=1050",
+          "logo": false
+        },
+        "age": "February 19, 2021",
+        "extra_snippets": [
+          "We field some huge questions on the podcast, like this one from a woman named Abijah, who is going through a lot. “Dear Pastor John, hello! So, I have been dealing with much in life, which has been really hard for the past three years. Normally I could face life’s challenges with the assurance that God was in control and that I could trust him. But beginning in 2018, I started to get really depressed about the whole meaning of life and my own purpose.",
+          "It was in the midst of my challenges that I lost someone I really loved, and it broke me like nothing ever has. My entire view of God and life has been shattered. I can’t seem to get myself out of wondering why life is even a thing. Life, at least my life, often feels like it has no meaning.",
+          "Abijah, I hear three distinct and interrelated sorrows that have brought you to this place of doubt about the meaning of your life. I hear depression; I hear loss; I hear a kind of fixation in your mind. You say, “I can’t seem to get myself out of wondering why life is even a thing.” In other words, the tape keeps playing over and over in your mind: Is life really significant at all?",
+          "You say you are depressed about the whole meaning of your life and your own purpose. And I think that’s right; I think you’re absolutely right that meaning consists in purpose — a good purpose, a wise, just, satisfying purpose or design for you or for the world. So, the whole question is, Does the world, with all of its beauty and ugliness, gladness and groaning, love and hate, pleasure and pain, nobility and vulgarity, kindness and abuse, selfishness and sacrifice — does such a world as ours have a wise, good, just, satisfying purpose under the providence of an all-wise, all-powerful God?"
+        ]
+      },
+      {
+        "title": "The Meaning of Life Is Surprisingly Simple",
+        "url": "https://www.theatlantic.com/family/archive/2021/10/meaning-life-macronutrients-purpose-search/620440/",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "You can make your quest for <strong>meaning</strong> manageable by breaking it down into three bite-size dimensions.",
+        "page_age": "2022-04-07T15:05:22",
+        "profile": {
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/family/archive/2021/10/meaning-life-macronutrients-purpose-search/620440/",
+          "long_name": "theatlantic.com",
+          "img": "https://imgs.search.brave.com/Fk4JWZ_EIMwpnJKP-_EGkUz6NsTbCMox8leGFvdkWKE/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDUyYzQzN2My/MTNkOThjMTliYWNk/ZWIyYTQyOWVhMDI3/MDg1YzkyNGQxNWY2/NjNiZTc3MGIwYmQ4/ZTIwYzMzOC93d3cu/dGhlYXRsYW50aWMu/Y29tLw"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "article",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "theatlantic.com",
+          "hostname": "www.theatlantic.com",
+          "favicon": "https://imgs.search.brave.com/Fk4JWZ_EIMwpnJKP-_EGkUz6NsTbCMox8leGFvdkWKE/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDUyYzQzN2My/MTNkOThjMTliYWNk/ZWIyYTQyOWVhMDI3/MDg1YzkyNGQxNWY2/NjNiZTc3MGIwYmQ4/ZTIwYzMzOC93d3cu/dGhlYXRsYW50aWMu/Y29tLw",
+          "path": "› family  › archive  › 2021  › 10  › meaning-life-macronutrients-purpose-search  › 620440"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/iFUar1FpP5nlbt9agAZxBFPlNXzEzfQe3FTgE3ZqY9k/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jZG4u/dGhlYXRsYW50aWMu/Y29tL3RodW1ib3Iv/UDdkVHVrMlZ3S09H/b3V6cUhwYm1EQ05t/WkI0PS8weDA6MzAw/MHgxNjg4LzcyMHg0/MDUvbWVkaWEvaW1n/L210LzIwMjEvMTAv/dW5uYW1lZF8xL29y/aWdpbmFsLmpwZw",
+          "original": "https://cdn.theatlantic.com/thumbor/P7dTuk2VwKOGouzqHpbmDCNmZB4=/0x0:3000x1688/720x405/media/img/mt/2021/10/unnamed_1/original.jpg",
+          "logo": false
+        },
+        "age": "April 7, 2022",
+        "extra_snippets": [
+          "Philosophy is often unhelpful, offering abstract ideas such as Aristotle’s human function or Kant’s “highest good” that are hard to comprehend, let alone put into action. Throwing up your hands and concluding that the question of the meaning of life is simply unanswerable—by you, at least—is the easy response.",
+          "Many psychologists call knowing your life’s meaning “presence,” and the drive to look for it “search.” They are not mutually exclusive: You might or might not search, whether you already have a sense of meaning or not. Some people low in presence don’t bother searching—they are “stuck.” Some are high in presence but keep searching—we can call them “seekers.” · Presence is highly correlated with well-being, but search seems to have no bearing on it—and pondering your meaning in life too much could even lead you to dissatisfaction.",
+          "Or in love, for that matter: A 2009 study in the journal CyberPsychology & Behavior tells a whole story in its title: “More Options Lead to More Searching and Worse Choices in Finding Partners for Romantic Relationships Online.” Though no study I have seen has specifically examined the issue, we can guess that peripatetic meaning-seekers would suffer in a similar way. Read: Finding purpose in life can make you healthier · If you haven’t yet found a sense of meaning at all, how do you go about searching for it without searching too much?",
+          "You can do so most effectively—and without too much obsessing—by assessing your life along three dimensions, which the psychologists Frank Martela and Michael F. Steger defined in The Journal of Positive Psychology in 2016: Coherence: how events fit together. This is an understanding that things happen in your life for a reason. That doesn’t necessarily mean you can fit new developments into your narrative the moment they happen, but you usually are able to do so afterward, so you have faith that you eventually will."
+        ]
+      },
+      {
+        "title": "The Real Meaning of Life",
+        "url": "https://www.youtube.com/watch?v=BHyVg2sXy5w",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "302 Moved · The document has moved here",
+        "profile": {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/watch?v=BHyVg2sXy5w",
+          "long_name": "youtube.com",
+          "img": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "youtube.com",
+          "hostname": "www.youtube.com",
+          "favicon": "https://imgs.search.brave.com/Wg4wjE5SHAargkzePU3eSLmWgVz84BEZk1SjSglJK_U/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+          "path": "› watch"
+        },
+        "extra_snippets": ["The document has moved here."]
+      },
+      {
+        "title": "LIFE Definition & Meaning - Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/life",
+        "is_source_local": false,
+        "is_source_both": false,
+        "description": "<strong>The</strong> <strong>meaning</strong> <strong>of</strong> <strong>LIFE</strong> <strong>is</strong> <strong>the</strong> quality that distinguishes a vital and functional being from a dead body. How to use <strong>life</strong> in a sentence.",
+        "page_age": "2025-05-21T00:00:00",
+        "profile": {
+          "name": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/life",
+          "long_name": "merriam-webster.com",
+          "img": "https://imgs.search.brave.com/bi9FmWof5TzSvP5tKxg_pdJSHXMziocpI7_cq6ov5r0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzYwYjQ3N2Jj/NTBhNDkxYTExNjU0/NTFhZDdlMGI0NjJh/Y2M1ODcwOWQwYzc5/YTI2MmZkZjIxMGFk/N2NkZWMzYy93d3cu/bWVycmlhbS13ZWJz/dGVyLmNvbS8"
+        },
+        "language": "en",
+        "family_friendly": true,
+        "type": "search_result",
+        "subtype": "generic",
+        "is_live": false,
+        "meta_url": {
+          "scheme": "https",
+          "netloc": "merriam-webster.com",
+          "hostname": "www.merriam-webster.com",
+          "favicon": "https://imgs.search.brave.com/bi9FmWof5TzSvP5tKxg_pdJSHXMziocpI7_cq6ov5r0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzYwYjQ3N2Jj/NTBhNDkxYTExNjU0/NTFhZDdlMGI0NjJh/Y2M1ODcwOWQwYzc5/YTI2MmZkZjIxMGFk/N2NkZWMzYy93d3cu/bWVycmlhbS13ZWJz/dGVyLmNvbS8",
+          "path": "› dictionary  › life"
+        },
+        "thumbnail": {
+          "src": "https://imgs.search.brave.com/bm0KAMlQNzmOllIUGR3mEs5IHZ5Vza39PqaM9cLhyDc/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9tZXJy/aWFtLXdlYnN0ZXIu/Y29tL2Fzc2V0cy9t/dy9zdGF0aWMvc29j/aWFsLW1lZGlhLXNo/YXJlL213LWxvZ28t/MjQ1eDI0NUAxeC5w/bmc",
+          "original": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
+          "logo": true
+        },
+        "age": "2 weeks ago",
+        "extra_snippets": [
+          "Noun He believes that God gives life to all creatures. She was happy and healthy for most of her life. The people in her family tend to have long lives. I've known her all my life. He is nearing the end of his life. People can expect to change jobs several times in their life.",
+          "the quality that distinguishes a vital and functional being from a dead body; a principle or force that is considered to underlie the distinctive quality of animate beings… See the full definition",
+          "the quality that distinguishes a vital and functional being from a dead body… See the full definition",
+          "2025 Their concerns are legitimate and consistent with respect for human life from conception, but the pro-life movement has nevertheless always been divided over IVF, and even many of those most skeptical of IVF do not think this is the proper moment to open a new legal or political front against it."
+        ]
+      }
+    ],
+    "family_friendly": true
+  }
+}
