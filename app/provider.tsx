@@ -7,10 +7,12 @@ import { UserDetailContext } from '@/context/UserDetailContext'
 
 export function Provider({ children }: { children: React.ReactNode }) {
   const { user } = useUser()
-  const [userDetail, setUserDetail] = useState<Record<string, any> | null>(null)
+  const [userDetail, setUserDetail] = useState<Record<string, unknown> | null>(
+    null,
+  )
 
   const createNewUser = async () => {
-    let { data: Users } = await supabase
+    const { data: Users } = await supabase
       .from('Users')
       .select('*')
       .eq('email', user?.primaryEmailAddress?.emailAddress)
