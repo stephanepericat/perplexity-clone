@@ -11,7 +11,7 @@ export async function POST(req: Request) {
 
   try {
     const search = await fetch(
-      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(searchInput.trim())}`,
+      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(searchInput.trim())}&count=10`,
       {
         method: 'GET',
         headers: {

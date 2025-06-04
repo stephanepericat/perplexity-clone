@@ -2,8 +2,14 @@ import { useEffect, useState } from 'react'
 import { TabList } from './tab-list'
 import { Answer } from './answer'
 
+import SEARCH_RESULTS from '@/lib/mocks/search-results.json'
+
+import type { BraveSearchResult } from '@/lib/search-types'
+
 export function DisplayResult({ record }: { record?: Record<string, string> }) {
   const [activeTab, setActiveTab] = useState('Answer')
+  const [searchResults, setSearchResults] =
+    useState<BraveSearchResult>(SEARCH_RESULTS)
 
   const getApiSearchResults = async (record: Record<string, string>) => {
     try {
@@ -26,9 +32,9 @@ export function DisplayResult({ record }: { record?: Record<string, string> }) {
 
   useEffect(() => {
     if (record) {
-      getApiSearchResults(record!).then((res) => {
-        console.log(res)
-      })
+      // getApiSearchResults(record!).then((res) => {
+      //   setSearchResults(res)
+      // })
     }
   }, [record])
 
@@ -38,7 +44,7 @@ export function DisplayResult({ record }: { record?: Record<string, string> }) {
         {record?.search_input}
       </h2>
       <TabList activeTab={activeTab} setActiveTab={setActiveTab} />
-      {activeTab === 'Answer' && <Answer />}
+      {activeTab === 'Answer' && <Answer searchResults={searchResults} />}
     </div>
   )
 }
