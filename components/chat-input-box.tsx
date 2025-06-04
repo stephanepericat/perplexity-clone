@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Logo from '@/public/home-logo.png'
+import Logo from '@/public/word-mark.png'
 import { cn } from '@/lib/utils'
 
 import {
@@ -29,7 +29,7 @@ import { AIModelOptions } from '@/lib/shared'
 export const ChatInputBox = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center">
-      <Image src={Logo} alt="Perplexity" className="max-w-72 mb-3" />
+      <Image src={Logo} alt="Perplexity" className="max-w-72 mb-6" />
       <div className="w-full p-2 max-w-2xl border-2 rounded-2xl relative">
         <Tabs defaultValue="search" className="w-full">
           <TabsContent value="search">
