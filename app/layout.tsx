@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 
 import { ClerkProvider } from '@clerk/nextjs'
+import { Provider } from './provider'
 
 import { SidebarProvider } from '@/components/ui/sidebar'
 import { SidebarTrigger } from '@/components/ui/sidebar'
@@ -39,7 +40,7 @@ export default function RootLayout({
             <AppSidebar />
             <main className="w-full h-screen overflow-hidden">
               <SidebarTrigger />
-              {children}
+              <Provider>{children}</Provider>
             </main>
           </SidebarProvider>
         </body>
