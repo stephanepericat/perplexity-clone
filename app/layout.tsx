@@ -38,10 +38,8 @@ export default function RootLayout({
         >
           <SidebarProvider>
             <AppSidebar />
-            <main className="w-full h-screen overflow-hidden">
-              <SidebarTrigger />
-              <Provider>{children}</Provider>
-            </main>
+            <SidebarTrigger />
+            <Provider>{children}</Provider>
           </SidebarProvider>
         </body>
       </html>

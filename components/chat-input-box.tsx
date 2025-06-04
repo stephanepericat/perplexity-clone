@@ -1,6 +1,7 @@
 'use client'
 
 import { useContext, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Logo from '@/public/word-mark.png'
 import { cn } from '@/lib/utils'
@@ -37,10 +38,9 @@ export const ChatInputBox = () => {
   const [searchType, setSearchType] = useState('search')
   const [loading, setLoading] = useState(false)
   const { userDetail } = useContext(UserDetailContext)
+  const router = useRouter()
 
   const onSearchQuery = async () => {
-    console.log('Searching for:', userSearchInput, searchType)
-
     try {
       setLoading(true)
       const { data, error } = await supabase
@@ -59,6 +59,7 @@ export const ChatInputBox = () => {
         throw error
       }
 
+      router.push(`/search/${data?.[0]?.search_id}`)
       console.log('Data inserted successfully:', data[0])
     } catch (error) {
       console.error('Error inserting data:', error)
