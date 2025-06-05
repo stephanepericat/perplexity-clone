@@ -7,9 +7,11 @@ import { supabase } from '@/lib/supabase'
 import { Header } from './_components/header'
 import { DisplayResult } from './_components/display-result'
 
+import type { LibraryRecord } from '@/lib/types'
+
 export default function SearchResultPage() {
   const { searchId } = useParams()
-  const [searchInputRecord, setSearchInputRecord] = useState({})
+  const [searchInputRecord, setSearchInputRecord] = useState<LibraryRecord>()
 
   const getSearchQueryRecord = async () => {
     try {
@@ -22,7 +24,7 @@ export default function SearchResultPage() {
         throw error
       }
 
-      setSearchInputRecord(data[0])
+      setSearchInputRecord(data[0] as LibraryRecord)
     } catch (e) {
       console.error(e)
     }

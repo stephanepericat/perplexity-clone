@@ -6,3 +6,12 @@ export type FormattedResult = {
   title?: string
   url?: string
 }
+
+export type LibraryRecord = {
+  id: string
+  created_at: string
+  type: string
+  search_input: string
+  user_email: string
+  search_id: string
+}
