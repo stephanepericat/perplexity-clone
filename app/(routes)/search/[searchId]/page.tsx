@@ -7,24 +7,24 @@ import { supabase } from '@/lib/supabase'
 import { Header } from './_components/header'
 import { DisplayResult } from './_components/display-result'
 
-import type { LibraryRecord } from '@/lib/types'
+import type { InputRecord } from '@/lib/types'
 
 export default function SearchResultPage() {
   const { searchId } = useParams()
-  const [searchInputRecord, setSearchInputRecord] = useState<LibraryRecord>()
+  const [searchInputRecord, setSearchInputRecord] = useState<InputRecord>()
 
   const getSearchQueryRecord = async () => {
     try {
       const { data, error } = await supabase
         .from('Library')
-        .select('*')
+        .select('*,Chats(*)')
         .eq('search_id', searchId)
 
       if (error) {
         throw error
       }
 
-      setSearchInputRecord(data[0] as LibraryRecord)
+      setSearchInputRecord(data[0] as InputRecord)
     } catch (e) {
       console.error(e)
     }

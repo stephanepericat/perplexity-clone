@@ -3,7 +3,9 @@ import { UserButton } from '@clerk/nextjs'
 import { Clock, Link, Send } from 'lucide-react'
 import moment from 'moment'
 
-export function Header({ record }: { record?: Record<string, string> }) {
+import type { InputRecord } from '@/lib/types'
+
+export function Header({ record }: { record?: InputRecord }) {
   return (
     <div className="p-4 border-b flex justify-between items-center">
       <div className="flex gap-2 items-center">

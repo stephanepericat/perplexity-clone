@@ -6,20 +6,20 @@ import { supabase } from '@/lib/supabase'
 import SEARCH_RESULTS from '@/lib/mocks/search-results.json'
 
 import type { BraveSearchResult } from '@/lib/search-types'
-import type { FormattedResult, LibraryRecord } from '@/lib/types'
+import type { FormattedResult, InputRecord } from '@/lib/types'
+import { Separator } from '@/components/ui/separator'
 
 export function DisplayResult({
   record,
   searchId,
 }: {
-  record?: LibraryRecord
+  record?: InputRecord
   searchId: string
 }) {
   const [activeTab, setActiveTab] = useState('Answer')
-  const [searchResults /*, setSearchResults */] =
-    useState<BraveSearchResult>(SEARCH_RESULTS)
+  const [searchResults, setSearchResults] = useState<InputRecord>()
 
-  const getApiSearchResults = async (record: LibraryRecord) => {
+  const getApiSearchResults = async (record: InputRecord) => {
     try {
       // const call = await fetch('/api/brave-search', {
       //   method: 'POST',
@@ -54,6 +54,7 @@ export function DisplayResult({
           {
             search_id: searchId,
             search_results: formattedResults,
+            user_search_input: record?.search_input,
           },
         ])
         .select()
@@ -70,7 +71,7 @@ export function DisplayResult({
 
   const generateAiResponse = async (
     id: number,
-    record: LibraryRecord,
+    record: InputRecord,
     sources: FormattedResult[],
   ) => {
     try {
@@ -114,19 +115,33 @@ export function DisplayResult({
   }
 
   useEffect(() => {
-    if (record) {
+    if (record?.Chats?.length === 0) {
       console.log('Getting results...')
       getApiSearchResults(record)
     }
+
+    setSearchResults(record)
   }, [record])
 
   return (
-    <div className="mt-7">
-      <h2 className="font-semibold text-3xl line-clamp-2">
-        {record?.search_input}
-      </h2>
-      <TabList activeTab={activeTab} setActiveTab={setActiveTab} />
-      {activeTab === 'Answer' && <Answer searchResults={searchResults} />}
+    <div>
+      {searchResults?.Chats?.map((chat, index) => {
+        return (
+          <div key={index} className="mt-7">
+            <h2 className="font-semibold text-3xl line-clamp-2">
+              {chat.user_search_input}
+            </h2>
+            <TabList activeTab={activeTab} setActiveTab={setActiveTab} />
+            {activeTab === 'Answer' && (
+              <Answer
+                searchResults={chat.search_results}
+                summary={chat.ai_response}
+              />
+            )}
+            <Separator className="my-5" />
+          </div>
+        )
+      })}
     </div>
   )
 }
