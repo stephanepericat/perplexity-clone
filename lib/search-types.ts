@@ -25,8 +25,8 @@ export interface Query {
 export interface Mixed {
   type: string
   main: Main[]
-  top: any[]
-  side: any[]
+  top: unknown[]
+  side: unknown[]
 }
 
 export interface Main {
