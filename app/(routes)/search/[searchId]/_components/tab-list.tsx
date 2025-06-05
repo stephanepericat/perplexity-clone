@@ -17,10 +17,10 @@ const tabs = [
     label: 'Images',
     icon: LucideImage,
   },
-  {
-    label: 'Videos',
-    icon: LucideVideo,
-  },
+  // {
+  //   label: 'Videos',
+  //   icon: LucideVideo,
+  // },
   {
     label: 'Sources',
     icon: LucideList,

@@ -6,7 +6,7 @@ import { Sources } from './sources'
 
 import { supabase } from '@/lib/supabase'
 
-import SEARCH_RESULTS from '@/lib/mocks/search-results.json'
+// import SEARCH_RESULTS from '@/lib/mocks/search-results.json'
 
 import type { BraveSearchResult } from '@/lib/search-types'
 import type { FormattedResult, InputRecord } from '@/lib/types'
@@ -22,21 +22,38 @@ export function DisplayResult({
   const [activeTab, setActiveTab] = useState('Answer')
   const [searchResults, setSearchResults] = useState<InputRecord>()
 
+  const getSearchRecord = async () => {
+    try {
+      const { data, error } = await supabase
+        .from('Library')
+        .select('*,Chats(*)')
+        .eq('search_id', searchId)
+
+      if (error) {
+        throw error
+      }
+
+      setSearchResults(data[0] as InputRecord)
+    } catch (e) {
+      console.error(e)
+    }
+  }
+
   const getApiSearchResults = async (record: InputRecord) => {
     try {
-      // const call = await fetch('/api/brave-search', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify({
-      //     searchInput: record?.search_input,
-      //     searchType: record?.type,
-      //   }),
-      // })
+      const call = await fetch('/api/brave-search', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          searchInput: record?.search_input,
+          searchType: record?.type,
+        }),
+      })
 
-      // const res = await call.json()
-      const res = SEARCH_RESULTS
+      const res = await call.json()
+      // const res = SEARCH_RESULTS
 
       const formattedResults: FormattedResult[] = res?.web?.results?.map(
         (result: BraveSearchResult['web']['results'][0]) => {
@@ -67,6 +84,7 @@ export function DisplayResult({
         throw error
       }
 
+      await getSearchRecord()
       await generateAiResponse(data[0].id, record, formattedResults)
     } catch (e) {
       console.error(e)
@@ -109,7 +127,7 @@ export function DisplayResult({
         if (status?.[0]?.status === 'Completed') {
           clearInterval(poll)
           // get updated data from database
-          console.log('run completed')
+          await getSearchRecord()
         }
       }, 1000)
     } catch (e) {
@@ -122,6 +140,8 @@ export function DisplayResult({
     if (record?.Chats?.length === 0) {
       console.log('Getting results...')
       getApiSearchResults(record)
+    } else {
+      getSearchRecord()
     }
 
     setSearchResults(record)
@@ -153,7 +173,7 @@ export function DisplayResult({
             {activeTab === 'Images' && (
               <ImageList searchResults={chat.search_results} />
             )}
-            {activeTab === 'Videos' && <p>videos</p>}
+            {/* {activeTab === 'Videos' && <p>videos</p>} */}
             {activeTab === 'Sources' && (
               <Sources searchResults={chat.search_results} />
             )}

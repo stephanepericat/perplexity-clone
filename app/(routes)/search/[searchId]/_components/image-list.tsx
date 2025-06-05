@@ -8,8 +8,6 @@ export function ImageList({
 }) {
   const images = searchResults?.filter((result) => result.thumbnail) || []
 
-  console.log('images', images)
-
   return (
     <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 my-5">
       {images.map((image, index) => {
