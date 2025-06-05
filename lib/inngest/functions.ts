@@ -18,12 +18,13 @@ export const llmModel = inngest.createFunction(
       const aiResponse = await step.ai.infer('generate-ai-llm-model-call', {
         model: step.ai.models.gemini({
           model: 'gemini-2.0-flash',
-          apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY!,
+          apiKey: process.env.GEMINI_API_KEY!,
         }),
+
         body: {
           contents: [
             {
-              role: 'system',
+              role: 'model',
               parts: [
                 {
                   text: `
@@ -46,13 +47,13 @@ export const llmModel = inngest.createFunction(
         },
       })
 
-      const saveToDb = await step.run('save-to-db', async () => {
+      await step.run('save-to-db', async () => {
         try {
-          const { data, error } = await supabase
+          await supabase
             .from('Chats')
             .update({
               ai_response:
-                // @ts-expect-error
+                // @ts-expect-error text type
                 aiResponse?.candidates?.[0]?.content?.parts?.[0]?.text,
             })
             .eq('id', event.data.record)
