@@ -74,7 +74,7 @@ export function DisplayResult({
     sources: FormattedResult[],
   ) => {
     try {
-      const call = await fetch('/api/llm-model', {
+      const llmCall = await fetch('/api/llm-model', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -86,11 +86,30 @@ export function DisplayResult({
         }),
       })
 
-      const res = await call.json()
+      const runId = await llmCall.json()
 
-      console.log(res)
+      const poll = setInterval(async () => {
+        const statusCall = await fetch(`/api/get-status`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            runId,
+          }),
+        })
+
+        const status = await statusCall.json()
+
+        if (status?.[0]?.status === 'Completed') {
+          clearInterval(poll)
+          // get updated data from database
+          console.log('run completed')
+        }
+      }, 1000)
     } catch (e) {
       console.error(e)
+      return null
     }
   }
 
