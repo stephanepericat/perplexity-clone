@@ -18,7 +18,7 @@ export async function POST(req: Request) {
       },
     })
 
-    return NextResponse.json(run, { status: 200 })
+    return NextResponse.json(run.ids[0], { status: 200 })
   } catch (e) {
     return NextResponse.json(e, { status: 500 })
   }
