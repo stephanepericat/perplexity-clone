@@ -3,7 +3,7 @@ import {
   LucideImage,
   LucideList,
   LucideSparkles,
-  LucideVideo,
+  // LucideVideo,
 } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
