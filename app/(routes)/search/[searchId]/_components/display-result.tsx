@@ -137,6 +137,10 @@ export function DisplayResult({
   }
 
   useEffect(() => {
+    if (!record) {
+      return
+    }
+
     if (record?.Chats?.length === 0) {
       console.log('Getting results...')
       getApiSearchResults(record)

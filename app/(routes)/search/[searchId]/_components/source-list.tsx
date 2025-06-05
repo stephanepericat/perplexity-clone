@@ -16,45 +16,62 @@ export function SourceList({
   return (
     <div
       className={cn(
-        'grid gap-3',
-        additionalResults > 0 ? 'grid-cols-[1fr_1fr_1fr_100px]' : 'grid-cols-3',
+        'grid gap-3 w-full',
+        results.length || additionalResults > 0
+          ? 'grid-cols-[1fr_1fr_1fr_100px]'
+          : 'grid-cols-3',
       )}
     >
-      {mainResults?.map((result, index) => {
-        return (
-          <div
-            key={index}
-            className="p-3 rounded-lg bg-accent cursor-pointer hover:brightness-95 transition-all"
-            onClick={() => {
-              window.open(result?.url, '_blank')
-            }}
-          >
-            <div className="flex gap-2 items-center">
-              <Image
-                src={result?.img}
-                alt={result?.long_name}
-                width={20}
-                height={20}
-              />
-              <h2 className="text-xs text-muted-foreground">
-                {result?.long_name}
-              </h2>
+      {!results.length ? (
+        <>
+          {[1, 2, 3, 4].map((value) => (
+            <div
+              key={value}
+              className="h-[76px] w-full bg-accent animate-pulse rounded-lg"
+            >
+              &nbsp;
             </div>
-            <p
-              className="text-xs line-clamp-2"
-              dangerouslySetInnerHTML={{ __html: result?.description }}
-            />
-          </div>
-        )
-      })}
-      {additionalResults > 0 && (
-        <div
-          className="p-3 rounded-lg bg-accent cursor-pointer hover:brightness-95 transition-all text-xs font-semibold flex flex-col items-center justify-center"
-          onClick={() => setActiveTab('Sources')}
-        >
-          <span>+ {additionalResults}</span>
-          <span>result(s)</span>
-        </div>
+          ))}
+        </>
+      ) : (
+        <>
+          {mainResults?.map((result, index) => {
+            return (
+              <div
+                key={index}
+                className="p-3 rounded-lg bg-accent cursor-pointer hover:brightness-95 transition-all"
+                onClick={() => {
+                  window.open(result?.url, '_blank')
+                }}
+              >
+                <div className="flex gap-2 items-center">
+                  <Image
+                    src={result?.img}
+                    alt={result?.long_name}
+                    width={20}
+                    height={20}
+                  />
+                  <h2 className="text-xs text-muted-foreground">
+                    {result?.long_name}
+                  </h2>
+                </div>
+                <p
+                  className="text-xs line-clamp-2"
+                  dangerouslySetInnerHTML={{ __html: result?.description }}
+                />
+              </div>
+            )
+          })}
+          {additionalResults > 0 && (
+            <div
+              className="p-3 rounded-lg bg-accent cursor-pointer hover:brightness-95 transition-all text-xs font-semibold flex flex-col items-center justify-center"
+              onClick={() => setActiveTab('Sources')}
+            >
+              <span>+ {additionalResults}</span>
+              <span>result(s)</span>
+            </div>
+          )}
+        </>
       )}
     </div>
   )

@@ -77,10 +77,24 @@ const components = {
 export function Summary({ response }: { response?: string }) {
   return (
     <div className="mt-5">
-      {/* @ts-expect-error type */}
-      <Markdown remarkPlugins={[remarkGfm]} components={components}>
-        {response}
-      </Markdown>
+      {response ? (
+        // @ts-expect-error type
+        <Markdown remarkPlugins={[remarkGfm]} components={components}>
+          {response}
+        </Markdown>
+      ) : (
+        <div className="mb-5">
+          <div className="w-full bg-accent animate-pulse h-5 rounded-md">
+            &nbsp;
+          </div>
+          <div className="w-1/2 mt-2 bg-accent animate-pulse h-5 rounded-md">
+            &nbsp;
+          </div>
+          <div className="w-3/4 mt-2 bg-accent animate-pulse h-5 rounded-md">
+            &nbsp;
+          </div>
+        </div>
+      )}
     </div>
   )
 }
