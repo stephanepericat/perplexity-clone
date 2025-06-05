@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
 import { TabList } from './tab-list'
 import { Answer } from './answer'
+import { ImageList } from './image-list'
+import { Sources } from './sources'
+
 import { supabase } from '@/lib/supabase'
 
 import SEARCH_RESULTS from '@/lib/mocks/search-results.json'
@@ -41,6 +44,7 @@ export function DisplayResult({
             description: result?.description,
             img: result?.profile?.img,
             long_name: result?.profile?.long_name,
+            name: result?.profile?.name,
             thumbnail: result?.thumbnail?.src,
             title: result?.title,
             url: result?.url,
@@ -131,14 +135,28 @@ export function DisplayResult({
             <h2 className="font-semibold text-3xl line-clamp-2">
               {chat.user_search_input}
             </h2>
-            <TabList activeTab={activeTab} setActiveTab={setActiveTab} />
+            <TabList
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+              sourcesCount={chat.search_results?.length || 0}
+            />
             {activeTab === 'Answer' && (
-              <Answer
-                searchResults={chat.search_results}
-                summary={chat.ai_response}
-              />
+              <>
+                <Answer
+                  searchResults={chat.search_results}
+                  summary={chat.ai_response}
+                />
+
+                <Separator className="my-5" />
+              </>
             )}
-            <Separator className="my-5" />
+            {activeTab === 'Images' && (
+              <ImageList searchResults={chat.search_results} />
+            )}
+            {activeTab === 'Videos' && <p>videos</p>}
+            {activeTab === 'Sources' && (
+              <Sources searchResults={chat.search_results} />
+            )}
           </div>
         )
       })}

@@ -2,6 +2,7 @@ export type FormattedResult = {
   description?: string
   img?: string
   long_name?: string
+  name?: string
   thumbnail?: string
   title?: string
   url?: string
@@ -29,6 +30,7 @@ export type SearchResult = {
   img: string
   url: string
   title: string
+  name: string
   long_name: string
   description: string
   thumbnail?: string

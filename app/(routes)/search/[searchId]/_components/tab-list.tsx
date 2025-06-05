@@ -24,16 +24,17 @@ const tabs = [
   {
     label: 'Sources',
     icon: LucideList,
-    badge: '10',
   },
 ]
 
 export function TabList({
   activeTab,
   setActiveTab,
+  sourcesCount = 0,
 }: {
   activeTab: string
   setActiveTab: (tab: string) => void
+  sourcesCount?: number
 }) {
   return (
     <div className="flex items-center space-x-6 border-b border-muted-foreground pb-2 mt-6">
@@ -48,9 +49,9 @@ export function TabList({
         >
           <tab.icon className="w-4 h-4" />
           <span>{tab.label}</span>
-          {tab.badge && (
+          {tab.label === 'Sources' && sourcesCount > 0 && (
             <span className="ml-1 text-xs bg-gray-100 text-muted-foreground px-1.5 py-0.5 rounded-full">
-              {tab.badge}
+              {sourcesCount}
             </span>
           )}
           {activeTab === tab.label && (
