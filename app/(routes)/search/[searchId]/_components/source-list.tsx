@@ -1,15 +1,30 @@
 import Image from 'next/image'
 
+import { cn } from '@/lib/utils'
 import type { SearchResult } from '@/lib/types'
 
-export function SourceList({ results }: { results: SearchResult[] }) {
+export function SourceList({
+  results,
+  setActiveTab,
+}: {
+  results: SearchResult[]
+  setActiveTab: (tab: string) => void
+}) {
+  const mainResults = results.slice(0, 3)
+  const additionalResults = results.length <= 3 ? 0 : results.length - 3
+
   return (
-    <>
-      {results?.map((result, index) => {
+    <div
+      className={cn(
+        'grid gap-2',
+        additionalResults > 0 ? 'grid-cols-[1fr_1fr_1fr_100px]' : 'grid-cols-3',
+      )}
+    >
+      {mainResults?.map((result, index) => {
         return (
           <div
             key={index}
-            className="p-3 rounded-lg bg-accent w-[200px] cursor-pointer hover:brightness-95 transition-all"
+            className="p-3 rounded-lg bg-accent cursor-pointer hover:brightness-95 transition-all"
             onClick={() => {
               window.open(result?.url, '_blank')
             }}
@@ -32,6 +47,15 @@ export function SourceList({ results }: { results: SearchResult[] }) {
           </div>
         )
       })}
-    </>
+      {additionalResults > 0 && (
+        <div
+          className="p-3 rounded-lg bg-accent cursor-pointer hover:brightness-95 transition-all text-xs font-semibold flex flex-col items-center justify-center"
+          onClick={() => setActiveTab('Sources')}
+        >
+          <span>+ {additionalResults}</span>
+          <span>result(s)</span>
+        </div>
+      )}
+    </div>
   )
 }

@@ -4,9 +4,11 @@ import type { SearchResult } from '@/lib/types'
 
 export function Answer({
   searchResults,
+  setActiveTab,
   summary,
 }: {
   searchResults?: SearchResult[]
+  setActiveTab: (tab: string) => void
   summary?: string
 }) {
   const results = searchResults || ([] as SearchResult[])
@@ -14,7 +16,7 @@ export function Answer({
   return (
     <div>
       <div className="flex flex-wrap gap-2 mt-5">
-        <SourceList results={results} />
+        <SourceList results={results} setActiveTab={setActiveTab} />
         <Summary response={summary} />
       </div>
     </div>

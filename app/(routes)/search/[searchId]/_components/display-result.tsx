@@ -164,6 +164,7 @@ export function DisplayResult({
               <>
                 <Answer
                   searchResults={chat.search_results}
+                  setActiveTab={setActiveTab}
                   summary={chat.ai_response}
                 />
 
