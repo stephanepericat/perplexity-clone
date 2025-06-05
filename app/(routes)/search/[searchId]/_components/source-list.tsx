@@ -16,7 +16,7 @@ export function SourceList({
   return (
     <div
       className={cn(
-        'grid gap-2',
+        'grid gap-3',
         additionalResults > 0 ? 'grid-cols-[1fr_1fr_1fr_100px]' : 'grid-cols-3',
       )}
     >
