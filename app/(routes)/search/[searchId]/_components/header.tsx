@@ -7,7 +7,7 @@ import type { InputRecord } from '@/lib/types'
 
 export function Header({ record }: { record?: InputRecord }) {
   return (
-    <div className="p-4 border-b flex justify-between items-center">
+    <div className="p-4 border-b flex justify-between items-center sticky top-0 bg-background z-10">
       <div className="flex gap-2 items-center">
         <UserButton />
         <div className="flex gap-1 items-center">

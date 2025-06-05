@@ -118,3 +118,22 @@ export interface WebResultThumbnail {
   original: string
   logo: boolean
 }
+
+export interface VideoResult {
+  type: string
+  url: string
+  title: string
+  description: string
+  video: Video
+  meta_url: MetaUrl
+  thumbnail: Thumbnail
+  age?: string
+  page_age?: string
+}
+
+export interface Video {
+  duration?: string
+  views?: number
+  creator?: string
+  publisher?: string
+}

@@ -37,7 +37,7 @@ export default function SearchResultPage() {
   return (
     <div>
       <Header record={searchInputRecord} />
-      <div className="px-10 md:px-20 lg:px-36 xl:px-56 mt-20">
+      <div className="px-10 w-full max-w-[800px] mx-auto">
         <DisplayResult
           record={searchInputRecord}
           searchId={searchId as string}

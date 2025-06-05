@@ -38,7 +38,7 @@ export default function RootLayout({
         >
           <SidebarProvider>
             <AppSidebar />
-            <SidebarTrigger />
+            <SidebarTrigger className="sticky top-0 z-20" />
             <Provider>{children}</Provider>
           </SidebarProvider>
         </body>
