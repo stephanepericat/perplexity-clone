@@ -76,7 +76,7 @@ const components = {
 
 export function Summary({ response }: { response?: string }) {
   return (
-    <div className="mt-5">
+    <div className="mt-5 w-full">
       {response ? (
         // @ts-expect-error type
         <Markdown remarkPlugins={[remarkGfm]} components={components}>

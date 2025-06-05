@@ -6,11 +6,12 @@ import { Sources } from './sources'
 
 import { supabase } from '@/lib/supabase'
 
-// import SEARCH_RESULTS from '@/lib/mocks/search-results.json'
-
 import type { BraveSearchResult } from '@/lib/search-types'
 import type { FormattedResult, InputRecord } from '@/lib/types'
 import { Separator } from '@/components/ui/separator'
+import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
+import { LoaderCircle, Send } from 'lucide-react'
 
 export function DisplayResult({
   record,
@@ -21,6 +22,8 @@ export function DisplayResult({
 }) {
   const [activeTab, setActiveTab] = useState('Answer')
   const [searchResults, setSearchResults] = useState<InputRecord>()
+  const [userInput, setUserInput] = useState('')
+  const [loading, setLoading] = useState(false)
 
   const getSearchRecord = async () => {
     try {
@@ -28,6 +31,7 @@ export function DisplayResult({
         .from('Library')
         .select('*,Chats(*)')
         .eq('search_id', searchId)
+        .order('id', { ascending: true, referencedTable: 'Chats' })
 
       if (error) {
         throw error
@@ -39,7 +43,8 @@ export function DisplayResult({
     }
   }
 
-  const getApiSearchResults = async (record: InputRecord) => {
+  const getApiSearchResults = async (record: InputRecord | null) => {
+    setLoading(true)
     try {
       const call = await fetch('/api/brave-search', {
         method: 'POST',
@@ -47,13 +52,12 @@ export function DisplayResult({
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          searchInput: record?.search_input,
-          searchType: record?.type,
+          searchInput: userInput ? userInput : record?.search_input,
+          searchType: record?.type || 'search',
         }),
       })
 
       const res = await call.json()
-      // const res = SEARCH_RESULTS
 
       const formattedResults: FormattedResult[] = res?.web?.results?.map(
         (result: BraveSearchResult['web']['results'][0]) => {
@@ -75,7 +79,7 @@ export function DisplayResult({
           {
             search_id: searchId,
             search_results: formattedResults,
-            user_search_input: record?.search_input,
+            user_search_input: record?.search_input || userInput,
           },
         ])
         .select()
@@ -85,7 +89,12 @@ export function DisplayResult({
       }
 
       await getSearchRecord()
-      await generateAiResponse(data[0].id, record, formattedResults)
+      await generateAiResponse(
+        data[0].id,
+        record || (data[0] as InputRecord),
+        formattedResults,
+      )
+      setLoading(false)
     } catch (e) {
       console.error(e)
     }
@@ -152,36 +161,51 @@ export function DisplayResult({
   }, [record])
 
   return (
-    <div>
+    <div className="pb-25">
       {searchResults?.Chats?.map((chat, index) => {
         return (
-          <div key={index} className="mt-7">
-            <h2 className="font-semibold text-3xl line-clamp-2">
-              {chat.user_search_input}
-            </h2>
-            <TabList
-              activeTab={activeTab}
-              setActiveTab={setActiveTab}
-              sourcesCount={chat.search_results?.length || 0}
-            />
-            {activeTab === 'Answer' && (
-              <>
-                <Answer
-                  searchResults={chat.search_results}
-                  setActiveTab={setActiveTab}
-                  summary={chat.ai_response}
-                />
+          <div key={index}>
+            <div className="mt-7">
+              <h2 className="font-semibold text-3xl line-clamp-2">
+                {chat.user_search_input}
+              </h2>
+              <TabList
+                activeTab={activeTab}
+                setActiveTab={setActiveTab}
+                sourcesCount={chat.search_results?.length || 0}
+              />
+              {activeTab === 'Answer' && (
+                <>
+                  <Answer
+                    searchResults={chat.search_results}
+                    setActiveTab={setActiveTab}
+                    summary={chat.ai_response}
+                  />
 
-                <Separator className="my-5" />
-              </>
-            )}
-            {activeTab === 'Images' && (
-              <ImageList searchResults={chat.search_results} />
-            )}
-            {/* {activeTab === 'Videos' && <p>videos</p>} */}
-            {activeTab === 'Sources' && (
-              <Sources searchResults={chat.search_results} />
-            )}
+                  <Separator className="my-5" />
+                </>
+              )}
+              {activeTab === 'Images' && (
+                <ImageList searchResults={chat.search_results} />
+              )}
+              {/* {activeTab === 'Videos' && <p>videos</p>} */}
+              {activeTab === 'Sources' && (
+                <Sources searchResults={chat.search_results} />
+              )}
+            </div>
+            <div className="bg-background border rounded-lg p-4 my-6 flex items-center gap-2 fixed bottom-2 w-full max-w-[720px] shadow-2xl">
+              <Input
+                placeholder="Ask a follow up question..."
+                className="focus-visible:border-none focus-visible:ring-none focus-visible:ring-0 border-none shadow-none"
+                onChange={(e) => setUserInput(e.target.value)}
+              />
+              <Button
+                disabled={!userInput}
+                onClick={() => getApiSearchResults(null)}
+              >
+                {loading ? <LoaderCircle className="animate-spin" /> : <Send />}
+              </Button>
+            </div>
           </div>
         )
       })}

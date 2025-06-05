@@ -15,7 +15,7 @@ export function Answer({
 
   return (
     <div>
-      <div className="flex flex-wrap gap-2 mt-5">
+      <div className="flex flex-wrap gap-2 mt-5 w-full">
         <SourceList results={results} setActiveTab={setActiveTab} />
         <Summary response={summary} />
       </div>
