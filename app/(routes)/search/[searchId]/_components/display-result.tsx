@@ -16,7 +16,7 @@ export function DisplayResult({
   searchId: string
 }) {
   const [activeTab, setActiveTab] = useState('Answer')
-  const [searchResults, setSearchResults] =
+  const [searchResults /*, setSearchResults */] =
     useState<BraveSearchResult>(SEARCH_RESULTS)
 
   const getApiSearchResults = async (record: LibraryRecord) => {
@@ -36,7 +36,7 @@ export function DisplayResult({
       const res = SEARCH_RESULTS
 
       const formattedResults: FormattedResult[] = res?.web?.results?.map(
-        (result: any) => {
+        (result: BraveSearchResult['web']['results'][0]) => {
           return {
             description: result?.description,
             img: result?.profile?.img,
