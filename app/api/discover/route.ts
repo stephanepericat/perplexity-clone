@@ -1,15 +1,15 @@
 import { NextResponse } from 'next/server'
 
 export async function POST(req: Request) {
-  const { searchInput, searchType } = await req.json()
+  const { theme } = await req.json()
 
-  if (!searchInput || !searchType) {
-    return NextResponse.json({ error: 'Missing search input or search type' })
+  if (!theme) {
+    return NextResponse.json({ error: 'Missing theme' })
   }
 
   try {
     const search = await fetch(
-      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(searchInput.trim())}&count=10`,
+      `https://api.search.brave.com/res/v1/news/search?q=${encodeURIComponent(theme.trim())}&count=10&freshness=pd&result_filter=news`,
       {
         method: 'GET',
         headers: {

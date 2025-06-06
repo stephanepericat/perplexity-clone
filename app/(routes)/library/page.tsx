@@ -3,7 +3,7 @@
 import { useContext, useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import moment from 'moment'
-import { SquareArrowUpRight } from 'lucide-react'
+import { GalleryHorizontalEnd, SquareArrowUpRight } from 'lucide-react'
 
 import { supabase } from '@/lib/supabase'
 import { UserDetailContext } from '@/context/UserDetailContext'
@@ -43,7 +43,10 @@ export default function LibraryPage() {
 
   return (
     <div className="mt-20 px-10 w-full max-w-[800px] mx-auto">
-      <h1 className="font-bold text-3xl pb-4">Library</h1>
+      <h1 className="font-bold text-3xl pb-4 flex items-center gap-2">
+        <GalleryHorizontalEnd />
+        Library
+      </h1>
       <div>
         {history.map((record) => (
           <div
