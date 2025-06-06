@@ -60,7 +60,6 @@ export const ChatInputBox = () => {
       }
 
       router.push(`/search/${data?.[0]?.search_id}`)
-      console.log('Data inserted successfully:', data[0])
     } catch (error) {
       console.error('Error inserting data:', error)
     } finally {
@@ -71,10 +70,6 @@ export const ChatInputBox = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center">
       <Image src={Logo} alt="Perplexity" className="max-w-72 mb-6" />
-      {/* <p>
-        {searchType} | {userSearchInput}
-      </p> */}
-      {/* <p>{JSON.stringify(userDetail)}</p> */}
       <div className="w-full p-2 max-w-2xl border-2 rounded-2xl relative">
         <Tabs
           defaultValue="search"
