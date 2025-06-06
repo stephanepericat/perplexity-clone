@@ -1,16 +1,18 @@
 'use client'
 
-import { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   CircleDollarSign,
   Compass,
   Cpu,
+  LoaderCircle,
   Palette,
   Star,
   Volleyball,
 } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
+import { NewsCard } from './_components/news-card'
 
 import type { NewsResult } from '@/lib/news-types'
 
@@ -38,10 +40,14 @@ const Themes = [
 ]
 
 export default function DiscoverPage() {
+  const [loading, setLoading] = useState<boolean>(false)
   const [selectedTheme, setSelectedTheme] = useState<string>('Top')
   const [articles, setArticles] = useState<NewsResult[]>([])
 
   const getArticles = async () => {
+    setArticles([])
+    setLoading(true)
+
     try {
       const response = await fetch('/api/discover', {
         method: 'POST',
@@ -59,6 +65,8 @@ export default function DiscoverPage() {
       setArticles(results as NewsResult[])
     } catch (e) {
       console.error(e)
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -85,7 +93,19 @@ export default function DiscoverPage() {
           </Button>
         ))}
       </div>
-      <div>{JSON.stringify(articles)}</div>
+      {loading && (
+        <LoaderCircle className="animate-spin w-10 h-10 mx-auto mt-10" />
+      )}
+      <div className="grid grid-cols-3 gap-6 my-10">
+        {articles.map((article, index) => (
+          <NewsCard
+            key={index}
+            article={article}
+            className={index === 0 ? 'col-span-3' : ''}
+            large={index === 0}
+          />
+        ))}
+      </div>
     </div>
   )
 }
