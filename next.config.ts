@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     domains: ['imgs.search.brave.com'],
   },
+  reactStrictMode: false,
 }
 
 export default nextConfig
